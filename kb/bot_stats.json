@@ -1,0 +1,2247 @@
+{
+ "notes": [
+  "'Died' = the player blacked out. Other reasons are the speedrun bot restarting on purpose.",
+  "death_rate = games that died in this section / games that reached it.",
+  "Our bot plays risky on purpose (low HP to skip sounds, few heals). A careful player dies less.",
+  "hunt data: slow games are cut early (pace_cut), so late sections see only fast games.",
+  "full_team_at_splits: team at the moment of each split, in the 102 finished full games. entering_lead: lead Pokémon at the previous split, for games that died in this section vs passed it."
+ ],
+ "splits": [
+  "Rival",
+  "Nidoran",
+  "Brock",
+  "Route 3",
+  "Mt. Moon",
+  "Bridge",
+  "Misty",
+  "Surge",
+  "Fly",
+  "Flute",
+  "Silph Giovanni",
+  "Koga",
+  "Erika",
+  "Blaine",
+  "Sabrina",
+  "Giovanni",
+  "Lorelei",
+  "Bruno",
+  "Agatha",
+  "Lance",
+  "Champion"
+ ],
+ "full": {
+  "desc": "900 full games, v62, no pace resets (17 Oct 2026)",
+  "games": 900,
+  "finished": 102,
+  "missing_reset_line": 0,
+  "skipped_errors": {},
+  "sections": [
+   {
+    "split": 1,
+    "name": "Rival",
+    "reached": 900,
+    "passed": 799,
+    "died": 47,
+    "bot_restart": 54,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Pallet Rival": 47
+    },
+    "restart_why": {
+     "Pallet Rival: Bad Squirtle": 41,
+     "Pallet Rival: Critical'd": 13
+    },
+    "death_rate": 0.0522
+   },
+   {
+    "split": 2,
+    "name": "Nidoran",
+    "reached": 799,
+    "passed": 799,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 3,
+    "name": "Brock",
+    "reached": 799,
+    "passed": 701,
+    "died": 87,
+    "bot_restart": 11,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Brock's Gym": 59,
+     "Viridian Forest": 28
+    },
+    "restart_why": {
+     "Brock's Gym: Critical'd": 11
+    },
+    "death_rate": 0.1089
+   },
+   {
+    "split": 4,
+    "name": "Route 3",
+    "reached": 701,
+    "passed": 620,
+    "died": 35,
+    "bot_restart": 46,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Shorts Kid": 27,
+     "Route 3": 8
+    },
+    "restart_why": {
+     "Shorts Kid: Critical'd": 36,
+     "Route 3: Critical'd": 10
+    },
+    "death_rate": 0.0499
+   },
+   {
+    "split": 5,
+    "name": "Mt. Moon",
+    "reached": 620,
+    "passed": 530,
+    "died": 0,
+    "bot_restart": 90,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {
+     "Mt. Moon: Confusion'd": 82,
+     "Mt. Moon: Critical'd": 8
+    },
+    "death_rate": 0.0
+   },
+   {
+    "split": 6,
+    "name": "Bridge",
+    "reached": 530,
+    "passed": 452,
+    "died": 22,
+    "bot_restart": 56,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Nugget Bridge": 21,
+     "Cerulean Rival": 1
+    },
+    "restart_why": {
+     "Nugget Bridge: Critical'd": 36,
+     "Nugget Bridge: Confusion'd": 12,
+     "Nugget Bridge: Ran out of potions": 5,
+     "Cerulean Rival: Critical'd": 2,
+     "Cerulean Rival: Sand-Attack'd": 1
+    },
+    "death_rate": 0.0415
+   },
+   {
+    "split": 7,
+    "name": "Misty",
+    "reached": 452,
+    "passed": 336,
+    "died": 52,
+    "bot_restart": 64,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Misty's Gym": 47,
+     "Nugget Bridge": 3,
+     "Cerulean Rocket": 2
+    },
+    "restart_why": {
+     "Misty's Gym: Critical'd": 27,
+     "Misty's Gym: Confusion'd": 22,
+     "Misty's Gym: Ran out of potions": 8,
+     "Nugget Bridge: Critical'd": 3,
+     "Cerulean Rocket: Critical'd": 2,
+     "Cerulean Rocket: Confusion'd": 1
+    },
+    "death_rate": 0.115
+   },
+   {
+    "split": 8,
+    "name": "Surge",
+    "reached": 336,
+    "passed": 284,
+    "died": 5,
+    "bot_restart": 47,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "S.S. Anne": 5
+    },
+    "restart_why": {
+     "S.S. Anne: Confusion'd": 27,
+     "Surge's Gym: Confusion'd": 14,
+     "S.S. Anne: Critical'd": 6
+    },
+    "death_rate": 0.0149
+   },
+   {
+    "split": 9,
+    "name": "Fly",
+    "reached": 284,
+    "passed": 221,
+    "died": 18,
+    "bot_restart": 45,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Lavender Town": 9,
+     "Rock Tunnel": 8,
+     "Route 9": 1
+    },
+    "restart_why": {
+     "Route 9: Confusion'd": 23,
+     "Rock Tunnel: Critical'd": 9,
+     "Rock Tunnel: Confusion'd": 5,
+     "Rock Tunnel: Slumbering": 5,
+     "Rock Tunnel: Ran out of potions": 2,
+     "Route 9: Critical'd": 1
+    },
+    "death_rate": 0.0634
+   },
+   {
+    "split": 10,
+    "name": "Flute",
+    "reached": 221,
+    "passed": 197,
+    "died": 11,
+    "bot_restart": 13,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Pokemon Tower": 11
+    },
+    "restart_why": {
+     "Pokemon Tower: Confusion'd": 11,
+     "Pokemon Tower: Critical'd": 2
+    },
+    "death_rate": 0.0498
+   },
+   {
+    "split": 11,
+    "name": "Silph Giovanni",
+    "reached": 197,
+    "passed": 197,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 12,
+    "name": "Koga",
+    "reached": 197,
+    "passed": 190,
+    "died": 0,
+    "bot_restart": 7,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {
+     "Koga's Gym: Critical'd": 7
+    },
+    "death_rate": 0.0
+   },
+   {
+    "split": 13,
+    "name": "Erika",
+    "reached": 190,
+    "passed": 189,
+    "died": 1,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Erika's Gym": 1
+    },
+    "restart_why": {},
+    "death_rate": 0.0053
+   },
+   {
+    "split": 14,
+    "name": "Blaine",
+    "reached": 189,
+    "passed": 189,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 15,
+    "name": "Sabrina",
+    "reached": 189,
+    "passed": 182,
+    "died": 6,
+    "bot_restart": 1,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Sabrina's Gym": 6
+    },
+    "restart_why": {
+     "Sabrina's Gym: Critical'd": 1
+    },
+    "death_rate": 0.0317
+   },
+   {
+    "split": 16,
+    "name": "Giovanni",
+    "reached": 182,
+    "passed": 154,
+    "died": 15,
+    "bot_restart": 13,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Machoke": 15
+    },
+    "restart_why": {
+     "Machoke: Critical'd": 13
+    },
+    "death_rate": 0.0824
+   },
+   {
+    "split": 17,
+    "name": "Lorelei",
+    "reached": 154,
+    "passed": 154,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 18,
+    "name": "Bruno",
+    "reached": 154,
+    "passed": 151,
+    "died": 3,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Bruno": 3
+    },
+    "restart_why": {},
+    "death_rate": 0.0195
+   },
+   {
+    "split": 19,
+    "name": "Agatha",
+    "reached": 151,
+    "passed": 150,
+    "died": 0,
+    "bot_restart": 1,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {
+     "Agatha: Confusion'd": 1
+    },
+    "death_rate": 0.0
+   },
+   {
+    "split": 20,
+    "name": "Lance",
+    "reached": 150,
+    "passed": 130,
+    "died": 7,
+    "bot_restart": 13,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Lance": 7
+    },
+    "restart_why": {
+     "Lance: Critical'd": 12,
+     "Lance: Confusion'd": 1
+    },
+    "death_rate": 0.0467
+   },
+   {
+    "split": 21,
+    "name": "Champion",
+    "reached": 130,
+    "passed": 102,
+    "died": 19,
+    "bot_restart": 9,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Blue": 19
+    },
+    "restart_why": {
+     "Blue: Critical'd": 9
+    },
+    "death_rate": 0.1462
+   }
+  ],
+  "by_area": {
+   "Misty's Gym": {
+    "Died": 47,
+    "Critical'd": 27,
+    "Confusion'd": 22,
+    "Ran out of potions": 8
+   },
+   "Pallet Rival": {
+    "Died": 47,
+    "Bad Squirtle": 41,
+    "Critical'd": 13
+   },
+   "Mt. Moon": {
+    "Confusion'd": 82,
+    "Critical'd": 8
+   },
+   "Nugget Bridge": {
+    "Critical'd": 39,
+    "Died": 24,
+    "Confusion'd": 12,
+    "Ran out of potions": 6
+   },
+   "Brock's Gym": {
+    "Died": 59,
+    "Critical'd": 11
+   },
+   "Shorts Kid": {
+    "Critical'd": 36,
+    "Died": 27
+   },
+   "S.S. Anne": {
+    "Confusion'd": 27,
+    "Critical'd": 6,
+    "Died": 5
+   },
+   "Rock Tunnel": {
+    "Critical'd": 9,
+    "Died": 8,
+    "Confusion'd": 5,
+    "Slumbering": 5,
+    "Ran out of potions": 2
+   },
+   "Blue": {
+    "Died": 19,
+    "Critical'd": 9
+   },
+   "Machoke": {
+    "Died": 15,
+    "Critical'd": 13
+   },
+   "Viridian Forest": {
+    "Died": 28
+   },
+   "Route 9": {
+    "Confusion'd": 23,
+    "Died": 1,
+    "Critical'd": 1
+   },
+   "Pokemon Tower": {
+    "Died": 11,
+    "Confusion'd": 11,
+    "Critical'd": 2
+   },
+   "Lance": {
+    "Critical'd": 12,
+    "Died": 7,
+    "Confusion'd": 1
+   },
+   "Route 3": {
+    "Critical'd": 10,
+    "Died": 8
+   },
+   "Surge's Gym": {
+    "Confusion'd": 14
+   },
+   "Lavender Town": {
+    "Died": 9
+   },
+   "Koga's Gym": {
+    "Critical'd": 7
+   },
+   "Sabrina's Gym": {
+    "Died": 6,
+    "Critical'd": 1
+   },
+   "Cerulean Rocket": {
+    "Died": 2,
+    "Critical'd": 2,
+    "Confusion'd": 1
+   },
+   "Cerulean Rival": {
+    "Critical'd": 2,
+    "Died": 1,
+    "Sand-Attack'd": 1
+   },
+   "Bruno": {
+    "Died": 3
+   },
+   "Agatha": {
+    "Confusion'd": 1
+   },
+   "Erika's Gym": {
+    "Died": 1
+   }
+  }
+ },
+ "hunt": {
+  "desc": "hunt66 games, v66, slow runs cut at pace lines (19 Oct 2026)",
+  "games": 43537,
+  "finished": 2,
+  "missing_reset_line": 1,
+  "skipped_errors": {
+   "technical_error": 43,
+   "error": 1
+  },
+  "sections": [
+   {
+    "split": 1,
+    "name": "Rival",
+    "reached": 43493,
+    "passed": 38787,
+    "died": 2062,
+    "bot_restart": 2644,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {
+     "Pallet Rival": 2062
+    },
+    "restart_why": {
+     "Pallet Rival: Bad Squirtle": 2288,
+     "Pallet Rival: Critical'd": 356
+    },
+    "death_rate": 0.0474
+   },
+   {
+    "split": 2,
+    "name": "Nidoran",
+    "reached": 38787,
+    "passed": 17690,
+    "died": 15,
+    "bot_restart": 3,
+    "pace_cut": 21078,
+    "other": 1,
+    "died_at": {
+     "Nidoran grass": 15
+    },
+    "restart_why": {
+     "Nidoran grass: Critical'd": 2,
+     "Pallet Town: Critical'd": 1
+    },
+    "death_rate": 0.0004
+   },
+   {
+    "split": 3,
+    "name": "Brock",
+    "reached": 17690,
+    "passed": 5447,
+    "died": 786,
+    "bot_restart": 93,
+    "pace_cut": 11364,
+    "other": 0,
+    "died_at": {
+     "Brock's Gym": 528,
+     "Viridian Forest": 258
+    },
+    "restart_why": {
+     "Brock's Gym: Critical'd": 90,
+     "Viridian Forest: Critical'd": 3
+    },
+    "death_rate": 0.0444
+   },
+   {
+    "split": 4,
+    "name": "Route 3",
+    "reached": 5447,
+    "passed": 3590,
+    "died": 223,
+    "bot_restart": 273,
+    "pace_cut": 1361,
+    "other": 0,
+    "died_at": {
+     "Shorts Kid": 193,
+     "Route 3": 30
+    },
+    "restart_why": {
+     "Shorts Kid: Critical'd": 217,
+     "Route 3: Critical'd": 56
+    },
+    "death_rate": 0.0409
+   },
+   {
+    "split": 5,
+    "name": "Mt. Moon",
+    "reached": 3590,
+    "passed": 1080,
+    "died": 0,
+    "bot_restart": 164,
+    "pace_cut": 2346,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {
+     "Mt. Moon: Confusion'd": 162,
+     "Mt. Moon: Critical'd": 2
+    },
+    "death_rate": 0.0
+   },
+   {
+    "split": 6,
+    "name": "Bridge",
+    "reached": 1080,
+    "passed": 547,
+    "died": 32,
+    "bot_restart": 71,
+    "pace_cut": 430,
+    "other": 0,
+    "died_at": {
+     "Nugget Bridge": 32
+    },
+    "restart_why": {
+     "Nugget Bridge: Critical'd": 34,
+     "Cerulean Rival: Sand-Attack'd": 20,
+     "Cerulean Rival: Critical'd": 9,
+     "Nugget Bridge: Confusion'd": 8
+    },
+    "death_rate": 0.0296
+   },
+   {
+    "split": 7,
+    "name": "Misty",
+    "reached": 547,
+    "passed": 280,
+    "died": 38,
+    "bot_restart": 43,
+    "pace_cut": 186,
+    "other": 0,
+    "died_at": {
+     "Misty's Gym": 34,
+     "Nugget Bridge": 3,
+     "Cerulean Rocket": 1
+    },
+    "restart_why": {
+     "Misty's Gym: Confusion'd": 28,
+     "Misty's Gym: Critical'd": 14,
+     "Misty's Gym: Ran out of potions": 1
+    },
+    "death_rate": 0.0695
+   },
+   {
+    "split": 8,
+    "name": "Surge",
+    "reached": 280,
+    "passed": 139,
+    "died": 3,
+    "bot_restart": 55,
+    "pace_cut": 83,
+    "other": 0,
+    "died_at": {
+     "S.S. Anne": 3
+    },
+    "restart_why": {
+     "S.S. Anne: Sand-Attack'd": 25,
+     "S.S. Anne: Confusion'd": 21,
+     "S.S. Anne: Critical'd": 4,
+     "Surge's Gym: Confusion'd": 4,
+     "Vermilion City: Critical'd": 1
+    },
+    "death_rate": 0.0107
+   },
+   {
+    "split": 9,
+    "name": "Fly",
+    "reached": 139,
+    "passed": 62,
+    "died": 7,
+    "bot_restart": 12,
+    "pace_cut": 58,
+    "other": 0,
+    "died_at": {
+     "Rock Tunnel": 4,
+     "Lavender Town": 3
+    },
+    "restart_why": {
+     "Route 9: Confusion'd": 9,
+     "Rock Tunnel: Critical'd": 1,
+     "Lavender Town: Critical'd": 1,
+     "Rock Tunnel: Slumbering": 1
+    },
+    "death_rate": 0.0504
+   },
+   {
+    "split": 10,
+    "name": "Flute",
+    "reached": 62,
+    "passed": 34,
+    "died": 0,
+    "bot_restart": 3,
+    "pace_cut": 25,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {
+     "Pokemon Tower: Confusion'd": 2,
+     "Pokemon Tower: Critical'd": 1
+    },
+    "death_rate": 0.0
+   },
+   {
+    "split": 11,
+    "name": "Silph Giovanni",
+    "reached": 34,
+    "passed": 25,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 9,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 12,
+    "name": "Koga",
+    "reached": 25,
+    "passed": 25,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 13,
+    "name": "Erika",
+    "reached": 25,
+    "passed": 16,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 9,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 14,
+    "name": "Blaine",
+    "reached": 16,
+    "passed": 16,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 15,
+    "name": "Sabrina",
+    "reached": 16,
+    "passed": 16,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 16,
+    "name": "Giovanni",
+    "reached": 16,
+    "passed": 13,
+    "died": 1,
+    "bot_restart": 1,
+    "pace_cut": 1,
+    "other": 0,
+    "died_at": {
+     "Machoke": 1
+    },
+    "restart_why": {
+     "Machoke: Critical'd": 1
+    },
+    "death_rate": 0.0625
+   },
+   {
+    "split": 17,
+    "name": "Lorelei",
+    "reached": 13,
+    "passed": 12,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 1,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 18,
+    "name": "Bruno",
+    "reached": 12,
+    "passed": 11,
+    "died": 0,
+    "bot_restart": 1,
+    "pace_cut": 0,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {
+     "Bruno: Critical'd": 1
+    },
+    "death_rate": 0.0
+   },
+   {
+    "split": 19,
+    "name": "Agatha",
+    "reached": 11,
+    "passed": 10,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 1,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 20,
+    "name": "Lance",
+    "reached": 10,
+    "passed": 3,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 7,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   },
+   {
+    "split": 21,
+    "name": "Champion",
+    "reached": 3,
+    "passed": 2,
+    "died": 0,
+    "bot_restart": 0,
+    "pace_cut": 1,
+    "other": 0,
+    "died_at": {},
+    "restart_why": {},
+    "death_rate": 0.0
+   }
+  ],
+  "by_area": {
+   "Pallet Rival": {
+    "Bad Squirtle": 2288,
+    "Died": 2062,
+    "Critical'd": 356
+   },
+   "Brock's Gym": {
+    "Died": 528,
+    "Critical'd": 90
+   },
+   "Shorts Kid": {
+    "Critical'd": 217,
+    "Died": 193
+   },
+   "Viridian Forest": {
+    "Died": 258,
+    "Critical'd": 3
+   },
+   "Mt. Moon": {
+    "Confusion'd": 162,
+    "Critical'd": 2
+   },
+   "Route 3": {
+    "Critical'd": 56,
+    "Died": 30
+   },
+   "Misty's Gym": {
+    "Died": 34,
+    "Confusion'd": 28,
+    "Critical'd": 14,
+    "Ran out of potions": 1
+   },
+   "Nugget Bridge": {
+    "Died": 35,
+    "Critical'd": 34,
+    "Confusion'd": 8
+   },
+   "S.S. Anne": {
+    "Sand-Attack'd": 25,
+    "Confusion'd": 21,
+    "Critical'd": 4,
+    "Died": 3
+   },
+   "Cerulean Rival": {
+    "Sand-Attack'd": 20,
+    "Critical'd": 9
+   },
+   "Nidoran grass": {
+    "Died": 15,
+    "Critical'd": 2
+   },
+   "Route 9": {
+    "Confusion'd": 9
+   },
+   "Rock Tunnel": {
+    "Died": 4,
+    "Critical'd": 1,
+    "Slumbering": 1
+   },
+   "Surge's Gym": {
+    "Confusion'd": 4
+   },
+   "Lavender Town": {
+    "Died": 3,
+    "Critical'd": 1
+   },
+   "Pokemon Tower": {
+    "Confusion'd": 2,
+    "Critical'd": 1
+   },
+   "Machoke": {
+    "Critical'd": 1,
+    "Died": 1
+   },
+   "Cerulean Rocket": {
+    "Died": 1
+   },
+   "Pallet Town": {
+    "Critical'd": 1
+   },
+   "Bruno": {
+    "Critical'd": 1
+   },
+   "Vermilion City": {
+    "Critical'd": 1
+   }
+  }
+ },
+ "full_team_at_splits": [
+  {
+   "split": 1,
+   "name": "Rival",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 6,
+     "level_range": [
+      6,
+      6
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP"
+    }
+   ],
+   "items_most_common": [],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    }
+   }
+  },
+  {
+   "split": 2,
+   "name": "Nidoran",
+   "finished_games": 0,
+   "snapshots_too_old": 799,
+   "team": [],
+   "items_most_common": [],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 799,
+     "level_median": 6,
+     "hp_share_median": 0.45
+    }
+   }
+  },
+  {
+   "split": 3,
+   "name": "Brock",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDORAN_M",
+     "in_share": 1.0,
+     "level_median": 8,
+     "level_range": [
+      8,
+      8
+     ],
+     "moves_most_common": "LEER / TACKLE / HORN_ATTACK"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK"
+    }
+   ],
+   "items_most_common": [
+    "POKE_BALL",
+    "ANTIDOTE"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    }
+   }
+  },
+  {
+   "split": 4,
+   "name": "Route 3",
+   "finished_games": 0,
+   "snapshots_too_old": 620,
+   "team": [],
+   "items_most_common": [],
+   "entering_lead": {
+    "died": {
+     "games": 35,
+     "level_median": 8,
+     "hp_share_median": 1.0
+    },
+    "passed": {
+     "games": 620,
+     "level_median": 8,
+     "hp_share_median": 1.0
+    }
+   }
+  },
+  {
+   "split": 5,
+   "name": "Mt. Moon",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 17,
+     "level_range": [
+      17,
+      17
+     ],
+     "moves_most_common": "HORN_ATTACK / WATER_GUN / MEGA_PUNCH / POISON_STING"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH"
+    }
+   ],
+   "items_most_common": [
+    "234",
+    "ESCAPE_ROPE",
+    "HELIX_FOSSIL",
+    "POTION",
+    "ANTIDOTE"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    }
+   }
+  },
+  {
+   "split": 6,
+   "name": "Bridge",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 21,
+     "level_range": [
+      21,
+      21
+     ],
+     "moves_most_common": "HORN_ATTACK / WATER_GUN / MEGA_PUNCH / POISON_STING"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH"
+    }
+   ],
+   "items_most_common": [
+    "234",
+    "ESCAPE_ROPE",
+    "HELIX_FOSSIL",
+    "RARE_CANDY",
+    "NUGGET",
+    "POTION",
+    "ANTIDOTE"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 22,
+     "level_median": 17,
+     "hp_share_median": 0.47
+    },
+    "passed": {
+     "games": 452,
+     "level_median": 17,
+     "hp_share_median": 0.52
+    }
+   }
+  },
+  {
+   "split": 7,
+   "name": "Misty",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 25,
+     "level_range": [
+      25,
+      25
+     ],
+     "moves_most_common": "HORN_ATTACK / THRASH / MEGA_PUNCH / POISON_STING"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH"
+    }
+   ],
+   "items_most_common": [
+    "234",
+    "HELIX_FOSSIL",
+    "NUGGET",
+    "S_S_TICKET",
+    "228",
+    "ANTIDOTE",
+    "POTION"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 52,
+     "level_median": 21,
+     "hp_share_median": 0.31
+    },
+    "passed": {
+     "games": 336,
+     "level_median": 21,
+     "hp_share_median": 0.34
+    }
+   }
+  },
+  {
+   "split": 8,
+   "name": "Surge",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 28,
+     "level_range": [
+      28,
+      28
+     ],
+     "moves_most_common": "HORN_ATTACK / THRASH / MEGA_PUNCH / BUBBLEBEAM"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "REPEL",
+    "HELIX_FOSSIL",
+    "S_S_TICKET",
+    "FULL_RESTORE",
+    "196",
+    "PARLYZ_HEAL",
+    "ANTIDOTE",
+    "POTION"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 5,
+     "level_median": 25,
+     "hp_share_median": 0.26
+    },
+    "passed": {
+     "games": 284,
+     "level_median": 25,
+     "hp_share_median": 0.28
+    }
+   }
+  },
+  {
+   "split": 9,
+   "name": "Fly",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 31,
+     "level_range": [
+      31,
+      31
+     ],
+     "moves_most_common": "THUNDERBOLT / THRASH / MEGA_PUNCH / BUBBLEBEAM"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "S_S_TICKET",
+    "FULL_RESTORE",
+    "196",
+    "PARLYZ_HEAL",
+    "HELIX_FOSSIL",
+    "MAX_ETHER",
+    "ELIXER",
+    "207",
+    "SUPER_REPEL",
+    "SUPER_POTION",
+    "POKE_DOLL",
+    "248",
+    "FRESH_WATER",
+    "X_ACCURACY",
+    "X_SPECIAL",
+    "X_SPEED",
+    "197",
+    "ANTIDOTE",
+    "POTION"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 18,
+     "level_median": 28,
+     "hp_share_median": 0.37
+    },
+    "passed": {
+     "games": 221,
+     "level_median": 28,
+     "hp_share_median": 0.4
+    }
+   }
+  },
+  {
+   "split": 10,
+   "name": "Flute",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 34,
+     "level_range": [
+      34,
+      34
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / ROCK_SLIDE / BUBBLEBEAM"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "PARLYZ_HEAL",
+    "HELIX_FOSSIL",
+    "MAX_ETHER",
+    "ELIXER",
+    "SUPER_POTION",
+    "FRESH_WATER",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "X_SPEED",
+    "197",
+    "RARE_CANDY",
+    "POKE_FLUTE",
+    "ANTIDOTE",
+    "POTION"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 11,
+     "level_median": 31,
+     "hp_share_median": 0.17
+    },
+    "passed": {
+     "games": 197,
+     "level_median": 31,
+     "hp_share_median": 0.24
+    }
+   }
+  },
+  {
+   "split": 11,
+   "name": "Silph Giovanni",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 38,
+     "level_range": [
+      38,
+      38
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / ROCK_SLIDE / BUBBLEBEAM"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "HELIX_FOSSIL",
+    "MAX_ETHER",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "X_SPEED",
+    "197",
+    "RARE_CANDY",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "PARLYZ_HEAL",
+    "ANTIDOTE",
+    "POTION"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 197,
+     "level_median": 34,
+     "hp_share_median": 0.84
+    }
+   }
+  },
+  {
+   "split": 12,
+   "name": "Koga",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 40,
+     "level_range": [
+      40,
+      40
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BUBBLEBEAM"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "TACKLE / TAIL_WHIP / BUBBLE"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "RARE_CANDY",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "GOLD_TEETH",
+    "198",
+    "PARLYZ_HEAL",
+    "MAX_ETHER"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 190,
+     "level_median": 38,
+     "hp_share_median": 0.6
+    }
+   }
+  },
+  {
+   "split": 13,
+   "name": "Erika",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 43,
+     "level_range": [
+      43,
+      43
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "STRENGTH / TAIL_WHIP / BUBBLE / SURF"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "PARLYZ_HEAL",
+    "MAX_ETHER"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 1,
+     "level_median": 40,
+     "hp_share_median": 0.0
+    },
+    "passed": {
+     "games": 189,
+     "level_median": 40,
+     "hp_share_median": 0.0
+    }
+   }
+  },
+  {
+   "split": 14,
+   "name": "Blaine",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 44,
+     "level_range": [
+      44,
+      44
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "STRENGTH / TAIL_WHIP / BUBBLE / SURF"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "PARLYZ_HEAL",
+    "MAX_ETHER"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 189,
+     "level_median": 43,
+     "hp_share_median": 0.06
+    }
+   }
+  },
+  {
+   "split": 15,
+   "name": "Sabrina",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 45,
+     "level_range": [
+      45,
+      45
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "STRENGTH / TAIL_WHIP / BUBBLE / SURF"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "PARLYZ_HEAL",
+    "MAX_ETHER"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 6,
+     "level_median": 44,
+     "hp_share_median": 0.09
+    },
+    "passed": {
+     "games": 182,
+     "level_median": 44,
+     "hp_share_median": 0.08
+    }
+   }
+  },
+  {
+   "split": 16,
+   "name": "Giovanni",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 47,
+     "level_range": [
+      47,
+      47
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    },
+    {
+     "species": "SQUIRTLE",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "STRENGTH / TAIL_WHIP / BUBBLE / SURF"
+    },
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "PARAS",
+     "in_share": 1.0,
+     "level_median": 10,
+     "level_range": [
+      10,
+      10
+     ],
+     "moves_most_common": "SCRATCH / CUT / DIG"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "SUPER_REPEL",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "PARLYZ_HEAL",
+    "MAX_ETHER"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 15,
+     "level_median": 45,
+     "hp_share_median": 0.1
+    },
+    "passed": {
+     "games": 154,
+     "level_median": 45,
+     "hp_share_median": 0.1
+    }
+   }
+  },
+  {
+   "split": 17,
+   "name": "Lorelei",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 50,
+     "level_range": [
+      50,
+      50
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "X_ACCURACY",
+    "FULL_RESTORE",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "MAX_ETHER",
+    "PARLYZ_HEAL"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 154,
+     "level_median": 47,
+     "hp_share_median": 0.14
+    }
+   }
+  },
+  {
+   "split": 18,
+   "name": "Bruno",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 51,
+     "level_range": [
+      51,
+      51
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "X_ACCURACY",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "SUPER_POTION",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "FULL_RESTORE",
+    "PARLYZ_HEAL"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 3,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    },
+    "passed": {
+     "games": 151,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    }
+   }
+  },
+  {
+   "split": 19,
+   "name": "Agatha",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 52,
+     "level_range": [
+      52,
+      52
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "X_ACCURACY",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "ELIXER",
+    "S_S_TICKET",
+    "X_SPECIAL",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "SUPER_POTION",
+    "PARLYZ_HEAL"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 0,
+     "level_median": null,
+     "hp_share_median": null
+    },
+    "passed": {
+     "games": 150,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    }
+   }
+  },
+  {
+   "split": 20,
+   "name": "Lance",
+   "finished_games": 102,
+   "snapshots_too_old": 0,
+   "team": [
+    {
+     "species": "PIDGEY",
+     "in_share": 1.0,
+     "level_median": 5,
+     "level_range": [
+      5,
+      5
+     ],
+     "moves_most_common": "GUST / SAND_ATTACK / FLY"
+    },
+    {
+     "species": "NIDOKING",
+     "in_share": 1.0,
+     "level_median": 53,
+     "level_range": [
+      53,
+      53
+     ],
+     "moves_most_common": "THUNDERBOLT / HORN_DRILL / EARTHQUAKE / BLIZZARD"
+    }
+   ],
+   "items_most_common": [
+    "BICYCLE",
+    "X_ACCURACY",
+    "196",
+    "X_SPEED",
+    "HELIX_FOSSIL",
+    "S_S_TICKET",
+    "197",
+    "POKE_FLUTE",
+    "CARD_KEY",
+    "198",
+    "199",
+    "SECRET_KEY",
+    "PARLYZ_HEAL",
+    "SUPER_POTION",
+    "X_SPECIAL"
+   ],
+   "entering_lead": {
+    "died": {
+     "games": 7,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    },
+    "passed": {
+     "games": 130,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    }
+   }
+  },
+  {
+   "split": 21,
+   "name": "Champion",
+   "finished_games": 0,
+   "snapshots_too_old": 102,
+   "team": [],
+   "items_most_common": [],
+   "entering_lead": {
+    "died": {
+     "games": 19,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    },
+    "passed": {
+     "games": 102,
+     "level_median": 5,
+     "hp_share_median": 0.0
+    }
+   }
+  }
+ ]
+}

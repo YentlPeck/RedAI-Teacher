@@ -1,0 +1,10423 @@
+{
+ "source": "candidates\\refstrat-v66\\lua\\route.lua",
+ "flags": "experiments\\v64-2026-10-18\\sets_record.txt",
+ "sections": [
+  {
+   "split": 1,
+   "name": "Rival",
+   "steps": [
+    {
+     "map_id": 38,
+     "map": "REDS_HOUSE_2F",
+     "title": "Red's room",
+     "actions": [
+      "refClockSync"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       6
+      ],
+      {
+       "do": "refClockSync"
+      },
+      [
+       5,
+       6
+      ],
+      [
+       5,
+       1
+      ],
+      [
+       7,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 39,
+     "map": "BLUES_HOUSE",
+     "title": "Red's house",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       6
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 0,
+     "map": "PALLET_TOWN",
+     "title": "Into the Wild",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       5,
+       6
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       10,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 40,
+     "map": "OAKS_LAB",
+     "title": "Choose your character!",
+     "actions": [
+      "squirtleIChooseYou",
+      "fightBulbasaur",
+      "split"
+     ],
+     "areas": [
+      "Pallet Rival"
+     ],
+     "path": [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       4
+      ],
+      [
+       7,
+       4
+      ],
+      {
+       "do": "squirtleIChooseYou"
+      },
+      [
+       5,
+       4
+      ],
+      [
+       5,
+       6
+      ],
+      {
+       "do": "fightBulbasaur"
+      },
+      {
+       "do": "split"
+      },
+      [
+       5,
+       12
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "REDS_HOUSE_2F",
+    "BLUES_HOUSE",
+    "PALLET_TOWN",
+    "OAKS_LAB"
+   ]
+  },
+  {
+   "split": 2,
+   "name": "Nidoran",
+   "steps": [
+    {
+     "map_id": 0,
+     "map": "PALLET_TOWN",
+     "title": "Let's try this escape again",
+     "actions": [],
+     "areas": [
+      "Pallet Town"
+     ],
+     "path": [
+      [
+       12,
+       12
+      ],
+      [
+       9,
+       12
+      ],
+      [
+       9,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       10,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 12,
+     "map": "ROUTE_1",
+     "title": "First encounters",
+     "actions": [
+      "dodgePalletBoy"
+     ],
+     "areas": [],
+     "path": [
+      [
+       10,
+       35
+      ],
+      [
+       10,
+       30
+      ],
+      [
+       8,
+       30
+      ],
+      [
+       8,
+       24
+      ],
+      [
+       12,
+       24
+      ],
+      [
+       12,
+       20
+      ],
+      [
+       9,
+       20
+      ],
+      [
+       9,
+       14
+      ],
+      [
+       14,
+       14
+      ],
+      {
+       "do": "dodgePalletBoy"
+      },
+      [
+       14,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       10,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": "To the Mart",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       20,
+       35
+      ],
+      [
+       20,
+       28
+      ],
+      [
+       19,
+       28
+      ],
+      [
+       19,
+       20
+      ],
+      [
+       29,
+       20
+      ],
+      [
+       29,
+       19
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 42,
+     "map": "VIRIDIAN_MART",
+     "title": "Viridian Mart",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       2,
+       5
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": "Backtracking",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       29,
+       20
+      ],
+      [
+       29,
+       21
+      ],
+      [
+       26,
+       21
+      ],
+      [
+       26,
+       30
+      ],
+      [
+       20,
+       30
+      ],
+      [
+       20,
+       36
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 12,
+     "map": "ROUTE_1",
+     "title": "Parkour",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       10,
+       0
+      ],
+      [
+       10,
+       3
+      ],
+      [
+       8,
+       3
+      ],
+      [
+       8,
+       18
+      ],
+      [
+       9,
+       18
+      ],
+      [
+       9,
+       21
+      ],
+      [
+       12,
+       21
+      ],
+      [
+       12,
+       24
+      ],
+      [
+       10,
+       24
+      ],
+      [
+       10,
+       36
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 0,
+     "map": "PALLET_TOWN",
+     "title": "To Oak's lab",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       10,
+       0
+      ],
+      [
+       10,
+       7
+      ],
+      [
+       9,
+       7
+      ],
+      [
+       9,
+       12
+      ],
+      [
+       12,
+       12
+      ],
+      [
+       12,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 40,
+     "map": "OAKS_LAB",
+     "title": "Parcel delivery",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       5,
+       11
+      ],
+      [
+       5,
+       3
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       1
+      ],
+      [
+       5,
+       1
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      [
+       4,
+       1
+      ],
+      [
+       4,
+       12
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 0,
+     "map": "PALLET_TOWN",
+     "title": "Leaving home",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       12,
+       12
+      ],
+      [
+       9,
+       12
+      ],
+      [
+       9,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       10,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 12,
+     "map": "ROUTE_1",
+     "title": "The grass again!?",
+     "actions": [
+      "dodgePalletBoy"
+     ],
+     "areas": [],
+     "path": [
+      [
+       10,
+       35
+      ],
+      [
+       10,
+       30
+      ],
+      [
+       8,
+       30
+      ],
+      [
+       8,
+       24
+      ],
+      [
+       12,
+       24
+      ],
+      [
+       12,
+       20
+      ],
+      [
+       9,
+       20
+      ],
+      [
+       9,
+       14
+      ],
+      [
+       14,
+       14
+      ],
+      {
+       "do": "dodgePalletBoy"
+      },
+      [
+       14,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       10,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": "Back to the Mart",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       20,
+       35
+      ],
+      [
+       20,
+       28
+      ],
+      [
+       19,
+       28
+      ],
+      [
+       19,
+       20
+      ],
+      [
+       29,
+       20
+      ],
+      [
+       29,
+       19
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 42,
+     "map": "VIRIDIAN_MART",
+     "title": "Viridian Mart redux",
+     "actions": [
+      "refShopViridian"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       2,
+       5
+      ],
+      {
+       "do": "refShopViridian"
+      },
+      [
+       3,
+       5
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": null,
+     "actions": [
+      "refViridianHealIf",
+      "refSquirtleExpIf",
+      "refViridianHealIf"
+     ],
+     "areas": [
+      "Nidoran grass"
+     ],
+     "path": [
+      [
+       29,
+       20
+      ],
+      {
+       "do": "refViridianHealIf",
+       "full": true
+      },
+      {
+       "do": "refSquirtleExpIf"
+      },
+      {
+       "do": "refViridianHealIf",
+       "full": true,
+       "after": true
+      },
+      [
+       15,
+       20
+      ],
+      [
+       15,
+       18
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       4,
+       15
+      ],
+      [
+       2,
+       15
+      ],
+      [
+       2,
+       16
+      ],
+      [
+       -1,
+       16
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 33,
+     "map": "ROUTE_22",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       39,
+       8
+      ],
+      [
+       40,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": null,
+     "actions": [
+      "refFaceAt",
+      "refChain"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       16
+      ],
+      [
+       2,
+       16
+      ],
+      [
+       2,
+       15
+      ],
+      [
+       4,
+       15
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       7,
+       18
+      ],
+      {
+       "do": "refFaceAt",
+       "y": 18,
+       "dir": "Left",
+       "x": 7
+      },
+      {
+       "do": "refChain",
+       "name": "early",
+       "rng": 101
+      }
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "PALLET_TOWN",
+    "ROUTE_1",
+    "VIRIDIAN_CITY",
+    "VIRIDIAN_MART",
+    "OAKS_LAB",
+    "ROUTE_22"
+   ]
+  },
+  {
+   "split": 3,
+   "name": "Brock",
+   "steps": [
+    {
+     "map_id": 51,
+     "map": "VIRIDIAN_FOREST",
+     "title": null,
+     "actions": [
+      "fightWeedle",
+      "refForestPotionIf",
+      "equipForBrock",
+      "equipForBrock"
+     ],
+     "areas": [
+      "Viridian Forest"
+     ],
+     "path": [
+      [
+       2,
+       19
+      ],
+      {
+       "do": "fightWeedle"
+      },
+      [
+       1,
+       19
+      ],
+      {
+       "do": "refForestPotionIf"
+      },
+      [
+       1,
+       16
+      ],
+      {
+       "do": "equipForBrock",
+       "anti": true
+      },
+      [
+       1,
+       5
+      ],
+      {
+       "do": "equipForBrock"
+      },
+      [
+       1,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 47,
+     "map": "VIRIDIAN_FOREST_NORTH_GATE",
+     "title": "Forest exit",
+     "actions": [
+      "exitForest"
+     ],
+     "areas": [],
+     "path": [
+      [
+       4,
+       7
+      ],
+      {
+       "do": "exitForest"
+      },
+      [
+       4,
+       1
+      ],
+      [
+       5,
+       1
+      ],
+      [
+       5,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 13,
+     "map": "ROUTE_2",
+     "title": "Road to Pewter City",
+     "actions": [],
+     "areas": [
+      "Pewter City"
+     ],
+     "path": [
+      [
+       3,
+       11
+      ],
+      [
+       3,
+       8
+      ],
+      [
+       8,
+       8
+      ],
+      [
+       8,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 2,
+     "map": "PEWTER_CITY",
+     "title": "Pewter City",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       18,
+       35
+      ],
+      [
+       18,
+       22
+      ],
+      [
+       19,
+       22
+      ],
+      [
+       19,
+       13
+      ],
+      [
+       10,
+       13
+      ],
+      [
+       10,
+       18
+      ],
+      [
+       16,
+       18
+      ],
+      [
+       16,
+       17
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 54,
+     "map": "PEWTER_GYM",
+     "title": "Brock",
+     "actions": [
+      "talk",
+      "fightBrock",
+      "splitBrock",
+      "changeSpeed"
+     ],
+     "areas": [
+      "Brock's Gym"
+     ],
+     "path": [
+      [
+       4,
+       13
+      ],
+      [
+       4,
+       8
+      ],
+      [
+       1,
+       8
+      ],
+      [
+       1,
+       4
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "fightBrock"
+      },
+      {
+       "do": "splitBrock"
+      },
+      {
+       "do": "changeSpeed",
+       "extra": "We have a run going"
+      },
+      [
+       4,
+       14
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "VIRIDIAN_FOREST",
+    "VIRIDIAN_FOREST_NORTH_GATE",
+    "ROUTE_2",
+    "PEWTER_CITY",
+    "PEWTER_GYM"
+   ]
+  },
+  {
+   "split": 4,
+   "name": "Route 3",
+   "steps": [
+    {
+     "map_id": 2,
+     "map": "PEWTER_CITY",
+     "title": "To Pewter Mart",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       16,
+       18
+      ],
+      [
+       10,
+       18
+      ],
+      [
+       10,
+       13
+      ],
+      [
+       21,
+       13
+      ],
+      [
+       21,
+       18
+      ],
+      [
+       23,
+       18
+      ],
+      [
+       23,
+       17
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 56,
+     "map": "PEWTER_MART",
+     "title": "engine set it on Route 3.",
+     "actions": [
+      "battleModeSet",
+      "refShopPewter"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       3,
+       5
+      ],
+      {
+       "do": "battleModeSet"
+      },
+      [
+       2,
+       5
+      ],
+      {
+       "do": "refShopPewter"
+      },
+      [
+       2,
+       6
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 2,
+     "map": "PEWTER_CITY",
+     "title": "Leaving Pewter City",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       23,
+       18
+      ],
+      [
+       40,
+       18
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 14,
+     "map": "ROUTE_3",
+     "title": "Route 3",
+     "actions": [
+      "bugCatcher",
+      "potionBeforeShorts",
+      "talk",
+      "shortsKid",
+      "tweetBrock",
+      "potionBeforeCocoons",
+      "talk",
+      "swapMove",
+      "potion",
+      "talk",
+      "fightMetapod",
+      "potion",
+      "refFlierBackupWest",
+      "refRoute3SaveTile",
+      "refChain"
+     ],
+     "areas": [
+      "Route 3",
+      "Shorts Kid",
+      "Route 3"
+     ],
+     "path": [
+      [
+       0,
+       10
+      ],
+      [
+       8,
+       10
+      ],
+      [
+       8,
+       8
+      ],
+      [
+       11,
+       8
+      ],
+      [
+       11,
+       6
+      ],
+      {
+       "do": "bugCatcher"
+      },
+      [
+       11,
+       4
+      ],
+      [
+       12,
+       4
+      ],
+      {
+       "do": "potionBeforeShorts"
+      },
+      [
+       13,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      {
+       "do": "shortsKid"
+      },
+      {
+       "do": "tweetBrock"
+      },
+      [
+       13,
+       5
+      ],
+      {
+       "do": "potionBeforeCocoons"
+      },
+      [
+       18,
+       5
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      {
+       "do": "swapMove",
+       "to": 0,
+       "move": "horn_attack"
+      },
+      [
+       18,
+       6
+      ],
+      [
+       22,
+       6
+      ],
+      [
+       22,
+       5
+      ],
+      [
+       23,
+       5
+      ],
+      {
+       "do": "potion",
+       "hp": 4
+      },
+      [
+       24,
+       5
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      {
+       "do": "fightMetapod"
+      },
+      [
+       27,
+       5
+      ],
+      [
+       27,
+       9
+      ],
+      {
+       "do": "potion",
+       "yolo": 14,
+       "hp": 14
+      },
+      {
+       "do": "refFlierBackupWest"
+      },
+      {
+       "do": "refRoute3SaveTile"
+      },
+      {
+       "do": "refChain",
+       "name": "moon",
+       "rng": 103
+      }
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "PEWTER_CITY",
+    "PEWTER_MART",
+    "ROUTE_3"
+   ]
+  },
+  {
+   "split": 5,
+   "name": "Mt. Moon",
+   "steps": [
+    {
+     "map_id": 61,
+     "map": "MT_MOON_B2F",
+     "title": null,
+     "actions": [
+      "potion",
+      "refMoonPotionMark",
+      "refMoonMenuCheck",
+      "refCandyEvolve",
+      "refTeach",
+      "refMoonStone",
+      "refTeach",
+      "talk",
+      "fightGrimer",
+      "refCandyEvolve",
+      "refTeach",
+      "refMoonStone",
+      "refTeach",
+      "dialogue"
+     ],
+     "areas": [
+      "Mt. Moon"
+     ],
+     "path": [
+      [
+       10,
+       17
+      ],
+      {
+       "do": "potion",
+       "hp": 99
+      },
+      {
+       "do": "refMoonPotionMark"
+      },
+      [
+       12,
+       17
+      ],
+      [
+       12,
+       16
+      ],
+      {
+       "do": "refMoonMenuCheck"
+      },
+      {
+       "do": "refCandyEvolve"
+      },
+      {
+       "do": "refTeach",
+       "replace": "tackle",
+       "move": "water_gun"
+      },
+      {
+       "do": "refMoonStone"
+      },
+      {
+       "do": "refTeach",
+       "replace": "leer",
+       "move": "mega_punch",
+       "poke": "nidoking"
+      },
+      [
+       12,
+       9
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "fightGrimer"
+      },
+      {
+       "do": "refCandyEvolve"
+      },
+      {
+       "do": "refTeach",
+       "replace": "tackle",
+       "move": "water_gun"
+      },
+      {
+       "do": "refMoonStone"
+      },
+      {
+       "do": "refTeach",
+       "replace": "leer",
+       "move": "mega_punch",
+       "poke": "nidoking"
+      },
+      [
+       13,
+       9
+      ],
+      [
+       13,
+       7
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       13,
+       5
+      ],
+      [
+       12,
+       5
+      ],
+      [
+       12,
+       4
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       5,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 60,
+     "map": "MT_MOON_B1F",
+     "title": "Mt. Moon escape",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       23,
+       3
+      ],
+      [
+       27,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 15,
+     "map": "ROUTE_4",
+     "title": "To Cerulean",
+     "actions": [
+      "reportMtMoon",
+      "split",
+      "changeSpeed"
+     ],
+     "areas": [],
+     "path": [
+      [
+       24,
+       6
+      ],
+      {
+       "do": "reportMtMoon"
+      },
+      {
+       "do": "split"
+      },
+      {
+       "do": "changeSpeed",
+       "extra": "Things are getting serious"
+      },
+      [
+       24,
+       8
+      ],
+      [
+       35,
+       8
+      ],
+      [
+       35,
+       10
+      ],
+      [
+       61,
+       10
+      ],
+      [
+       61,
+       8
+      ],
+      [
+       79,
+       8
+      ],
+      [
+       79,
+       10
+      ],
+      [
+       90,
+       10
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "MT_MOON_B2F",
+    "MT_MOON_B1F",
+    "ROUTE_4"
+   ]
+  },
+  {
+   "split": 6,
+   "name": "Bridge",
+   "steps": [
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": "Enter Cerulean",
+     "actions": [
+      "dodgeCerulean"
+     ],
+     "areas": [
+      "Cerulean"
+     ],
+     "path": [
+      [
+       0,
+       18
+      ],
+      [
+       14,
+       18
+      ],
+      {
+       "do": "dodgeCerulean"
+      },
+      [
+       19,
+       18
+      ],
+      [
+       19,
+       17
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 64,
+     "map": "CERULEAN_POKECENTER",
+     "title": "Cerulean Center",
+     "actions": [
+      "dialogue"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       3
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       19,
+       18
+      ],
+      [
+       16,
+       18
+      ],
+      [
+       16,
+       26
+      ],
+      [
+       13,
+       26
+      ],
+      [
+       13,
+       25
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 66,
+     "map": "BIKE_SHOP",
+     "title": null,
+     "actions": [
+      "refBikeClerk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       4,
+       4
+      ],
+      {
+       "do": "refBikeClerk"
+      },
+      [
+       4,
+       4
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": "To the house",
+     "actions": [
+      "dodgeCerulean"
+     ],
+     "areas": [],
+     "path": [
+      [
+       13,
+       26
+      ],
+      [
+       16,
+       26
+      ],
+      [
+       16,
+       18
+      ],
+      {
+       "do": "dodgeCerulean",
+       "left": true
+      },
+      [
+       8,
+       16
+      ],
+      [
+       8,
+       12
+      ],
+      [
+       9,
+       12
+      ],
+      [
+       9,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 230,
+     "map": "CERULEAN_BADGE_HOUSE",
+     "title": "In the house",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": "Outback",
+     "actions": [
+      "take"
+     ],
+     "areas": [],
+     "path": [
+      [
+       9,
+       9
+      ],
+      [
+       9,
+       8
+      ],
+      [
+       14,
+       8
+      ],
+      {
+       "do": "take",
+       "dir": "Right"
+      },
+      [
+       9,
+       8
+      ],
+      [
+       9,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 230,
+     "map": "CERULEAN_BADGE_HOUSE",
+     "title": "Out the house",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": "Rival 2",
+     "actions": [
+      "rivalSandAttack",
+      "refPreNuggetCenter"
+     ],
+     "areas": [
+      "Cerulean Rival"
+     ],
+     "path": [
+      [
+       9,
+       12
+      ],
+      [
+       21,
+       12
+      ],
+      [
+       21,
+       6
+      ],
+      {
+       "do": "rivalSandAttack"
+      },
+      {
+       "do": "refPreNuggetCenter"
+      },
+      [
+       21,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 35,
+     "map": "ROUTE_24",
+     "title": "Nugget bridge",
+     "actions": [
+      "refInstantTextLog",
+      "talk",
+      "hornAttackCaterpie",
+      "potion",
+      "talk",
+      "rareCandyEarly",
+      "potion",
+      "talk",
+      "swapThrash",
+      "teachThrash",
+      "potion",
+      "talk",
+      "swapThrash",
+      "teachThrash",
+      "potionForMankey",
+      "talk",
+      "swapThrash",
+      "redbarMankey",
+      "teachThrash",
+      "learnThrash",
+      "swapThrash",
+      "waitToFight",
+      "teachThrash",
+      "split"
+     ],
+     "areas": [
+      "Nugget Bridge"
+     ],
+     "path": [
+      [
+       11,
+       35
+      ],
+      {
+       "do": "refInstantTextLog",
+       "at": "Nugget Bridge"
+      },
+      [
+       11,
+       32
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "hornAttackCaterpie"
+      },
+      [
+       10,
+       32
+      ],
+      [
+       10,
+       29
+      ],
+      {
+       "do": "potion",
+       "yolo": 10,
+       "hp": 12
+      },
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      [
+       11,
+       29
+      ],
+      [
+       11,
+       27
+      ],
+      {
+       "do": "rareCandyEarly",
+       "chain": true
+      },
+      {
+       "do": "potion",
+       "yolo": 8,
+       "hp": 10
+      },
+      [
+       11,
+       26
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "swapThrash"
+      },
+      [
+       10,
+       26
+      ],
+      [
+       10,
+       24
+      ],
+      {
+       "do": "teachThrash",
+       "chain": true
+      },
+      {
+       "do": "potion",
+       "hp": 4
+      },
+      [
+       10,
+       23
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "swapThrash"
+      },
+      [
+       11,
+       23
+      ],
+      [
+       11,
+       21
+      ],
+      {
+       "do": "teachThrash",
+       "chain": true
+      },
+      {
+       "do": "potionForMankey"
+      },
+      [
+       11,
+       20
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "swapThrash"
+      },
+      {
+       "do": "redbarMankey"
+      },
+      [
+       10,
+       20
+      ],
+      [
+       10,
+       19
+      ],
+      {
+       "do": "teachThrash"
+      },
+      [
+       10,
+       15
+      ],
+      {
+       "do": "learnThrash"
+      },
+      {
+       "do": "swapThrash"
+      },
+      {
+       "do": "waitToFight"
+      },
+      {
+       "do": "teachThrash"
+      },
+      {
+       "do": "split"
+      },
+      [
+       10,
+       8
+      ],
+      [
+       20,
+       8
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CERULEAN_CITY",
+    "CERULEAN_POKECENTER",
+    "BIKE_SHOP",
+    "CERULEAN_BADGE_HOUSE",
+    "ROUTE_24"
+   ]
+  },
+  {
+   "split": 7,
+   "name": "Misty",
+   "steps": [
+    {
+     "map_id": 36,
+     "map": "ROUTE_25",
+     "title": "To Bill's",
+     "actions": [
+      "talk",
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       8
+      ],
+      [
+       9,
+       8
+      ],
+      [
+       9,
+       7
+      ],
+      [
+       11,
+       7
+      ],
+      [
+       11,
+       9
+      ],
+      [
+       14,
+       9
+      ],
+      [
+       14,
+       7
+      ],
+      [
+       14,
+       6
+      ],
+      [
+       15,
+       6
+      ],
+      [
+       15,
+       4
+      ],
+      [
+       17,
+       4
+      ],
+      [
+       17,
+       7
+      ],
+      [
+       18,
+       7
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      [
+       19,
+       7
+      ],
+      [
+       19,
+       8
+      ],
+      [
+       23,
+       8
+      ],
+      [
+       25,
+       8
+      ],
+      [
+       25,
+       6
+      ],
+      [
+       32,
+       6
+      ],
+      [
+       32,
+       4
+      ],
+      [
+       36,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      [
+       36,
+       5
+      ],
+      [
+       38,
+       5
+      ],
+      [
+       38,
+       4
+      ],
+      [
+       45,
+       4
+      ],
+      [
+       45,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 88,
+     "map": "BILLS_HOUSE",
+     "title": "Save Bill",
+     "actions": [
+      "dialogue",
+      "interact",
+      "talkToBill",
+      "waitToTalk",
+      "refUseIf",
+      "refNidokingStats",
+      "refBillPotions",
+      "item"
+     ],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       5,
+       5
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Right"
+      },
+      [
+       1,
+       5
+      ],
+      {
+       "do": "interact",
+       "dir": "Up"
+      },
+      [
+       4,
+       5
+      ],
+      {
+       "do": "talkToBill"
+      },
+      {
+       "do": "waitToTalk"
+      },
+      {
+       "do": "refUseIf",
+       "all": true,
+       "item": "rare_candy",
+       "poke": "nidoking"
+      },
+      {
+       "do": "refNidokingStats"
+      },
+      {
+       "do": "refBillPotions",
+       "chain": true
+      },
+      {
+       "do": "item",
+       "item": "escape_rope"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       19,
+       18
+      ],
+      [
+       16,
+       18
+      ],
+      [
+       16,
+       26
+      ],
+      [
+       13,
+       26
+      ],
+      [
+       13,
+       25
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 66,
+     "map": "BIKE_SHOP",
+     "title": null,
+     "actions": [
+      "refBikeClerk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       4,
+       4
+      ],
+      {
+       "do": "refBikeClerk"
+      },
+      [
+       4,
+       4
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [],
+     "areas": [
+      "Cerulean Rocket"
+     ],
+     "path": [
+      [
+       13,
+       26
+      ],
+      [
+       16,
+       26
+      ],
+      [
+       16,
+       18
+      ],
+      [
+       17,
+       18
+      ],
+      [
+       17,
+       16
+      ],
+      [
+       8,
+       16
+      ],
+      [
+       8,
+       12
+      ],
+      [
+       27,
+       12
+      ],
+      [
+       27,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 62,
+     "map": "CERULEAN_TRASHED_HOUSE",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [
+      "potionBeforeRocket",
+      "announceMachop",
+      "refMistyDirect",
+      "refWarpDir"
+     ],
+     "areas": [],
+     "path": [
+      [
+       27,
+       9
+      ],
+      [
+       28,
+       9
+      ],
+      {
+       "do": "potionBeforeRocket"
+      },
+      [
+       30,
+       9
+      ],
+      {
+       "do": "announceMachop"
+      },
+      {
+       "do": "refMistyDirect"
+      },
+      [
+       29,
+       9
+      ],
+      [
+       27,
+       9
+      ],
+      {
+       "do": "refWarpDir",
+       "dir": "Down"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 62,
+     "map": "CERULEAN_TRASHED_HOUSE",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       3,
+       0
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [
+      "refMaybeHeal",
+      "refBikeRefresh"
+     ],
+     "areas": [],
+     "path": [
+      [
+       27,
+       11
+      ],
+      [
+       27,
+       13
+      ],
+      [
+       11,
+       13
+      ],
+      [
+       11,
+       14
+      ],
+      [
+       8,
+       14
+      ],
+      [
+       8,
+       19
+      ],
+      [
+       16,
+       19
+      ],
+      [
+       16,
+       18
+      ],
+      [
+       19,
+       18
+      ],
+      {
+       "do": "refMaybeHeal",
+       "center": 64,
+       "door": [
+        19,
+        17
+       ],
+       "mistyFloor": true,
+       "map": 3,
+       "frac": 1.0
+      },
+      {
+       "do": "refBikeRefresh",
+       "at": "row 16"
+      },
+      [
+       19,
+       20
+      ],
+      [
+       30,
+       20
+      ],
+      [
+       30,
+       19
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 65,
+     "map": "CERULEAN_GYM",
+     "title": "Misty",
+     "actions": [
+      "refInstantTextLog",
+      "waitToFight",
+      "refUseIf",
+      "refNidokingStats",
+      "refMistyPrep",
+      "talk",
+      "fightMisty",
+      "split",
+      "tweetMisty"
+     ],
+     "areas": [
+      "Misty's Gym"
+     ],
+     "path": [
+      [
+       4,
+       13
+      ],
+      {
+       "do": "refInstantTextLog",
+       "at": "Misty gym"
+      },
+      [
+       4,
+       8
+      ],
+      [
+       2,
+       8
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       7,
+       5
+      ],
+      [
+       7,
+       3
+      ],
+      [
+       6,
+       3
+      ],
+      [
+       5,
+       3
+      ],
+      {
+       "do": "waitToFight"
+      },
+      {
+       "do": "refUseIf",
+       "all": true,
+       "item": "rare_candy",
+       "poke": "nidoking"
+      },
+      {
+       "do": "refNidokingStats"
+      },
+      {
+       "do": "refMistyPrep"
+      },
+      [
+       5,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Left"
+      },
+      {
+       "do": "fightMisty"
+      },
+      {
+       "do": "split"
+      },
+      {
+       "do": "tweetMisty"
+      },
+      [
+       5,
+       3
+      ],
+      [
+       7,
+       3
+      ],
+      [
+       7,
+       5
+      ],
+      [
+       5,
+       5
+      ],
+      [
+       5,
+       14
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "ROUTE_25",
+    "BILLS_HOUSE",
+    "CERULEAN_CITY",
+    "BIKE_SHOP",
+    "CERULEAN_TRASHED_HOUSE",
+    "CERULEAN_GYM"
+   ]
+  },
+  {
+   "split": 8,
+   "name": "Surge",
+   "steps": [
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [
+      "refMaybeHeal",
+      "refMaybeMart",
+      "refBikeRefresh"
+     ],
+     "areas": [],
+     "path": [
+      [
+       30,
+       20
+      ],
+      [
+       22,
+       20
+      ],
+      [
+       22,
+       18
+      ],
+      [
+       19,
+       18
+      ],
+      {
+       "do": "refMaybeHeal",
+       "center": 64,
+       "door": [
+        19,
+        17
+       ],
+       "postMisty": true,
+       "map": 3
+      },
+      {
+       "do": "refMaybeMart",
+       "min": 0
+      },
+      {
+       "do": "refBikeRefresh",
+       "at": "row 17"
+      },
+      [
+       17,
+       18
+      ],
+      [
+       17,
+       16
+      ],
+      [
+       8,
+       16
+      ],
+      [
+       8,
+       12
+      ],
+      [
+       27,
+       12
+      ],
+      [
+       27,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 62,
+     "map": "CERULEAN_TRASHED_HOUSE",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       27,
+       9
+      ],
+      [
+       33,
+       9
+      ],
+      [
+       33,
+       18
+      ],
+      [
+       36,
+       18
+      ],
+      [
+       36,
+       31
+      ],
+      [
+       25,
+       31
+      ],
+      [
+       25,
+       36
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 16,
+     "map": "ROUTE_5",
+     "title": "Out of Cerulean",
+     "actions": [
+      "potion"
+     ],
+     "areas": [],
+     "path": [
+      [
+       15,
+       0
+      ],
+      {
+       "do": "potion",
+       "yolo": 15.0,
+       "hp": 15.0
+      },
+      [
+       15,
+       28
+      ],
+      [
+       17,
+       28
+      ],
+      [
+       17,
+       27
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 71,
+     "map": "UNDERGROUND_PATH_ROUTE_5",
+     "title": "Underground entrance",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 119,
+     "map": "UNDERGROUND_PATH_NORTH_SOUTH",
+     "title": "Underground to Vermilion",
+     "actions": [
+      "jingleSkip"
+     ],
+     "areas": [],
+     "path": [
+      [
+       5,
+       4
+      ],
+      [
+       4,
+       4
+      ],
+      {
+       "do": "jingleSkip"
+      },
+      [
+       2,
+       4
+      ],
+      [
+       2,
+       41
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 74,
+     "map": "UNDERGROUND_PATH_ROUTE_6",
+     "title": "Underground exit",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       4,
+       4
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 17,
+     "map": "ROUTE_6",
+     "title": "Oddish",
+     "actions": [
+      "potion",
+      "catchOddish",
+      "potion",
+      "waitToFight",
+      "potionBeforeRaticate"
+     ],
+     "areas": [
+      "Vermilion City"
+     ],
+     "path": [
+      [
+       17,
+       14
+      ],
+      [
+       17,
+       15
+      ],
+      {
+       "do": "potion",
+       "yolo": 7,
+       "hp": 10
+      },
+      [
+       17,
+       19
+      ],
+      {
+       "do": "catchOddish"
+      },
+      [
+       11,
+       29
+      ],
+      {
+       "do": "potion",
+       "yolo": 7,
+       "hp": 10
+      },
+      [
+       11,
+       29
+      ],
+      {
+       "do": "waitToFight",
+       "dir": "Down"
+      },
+      [
+       10,
+       29
+      ],
+      [
+       10,
+       30
+      ],
+      {
+       "do": "potionBeforeRaticate"
+      },
+      [
+       10,
+       31
+      ],
+      [
+       9,
+       31
+      ],
+      [
+       9,
+       36
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 5,
+     "map": "VERMILION_CITY",
+     "title": "Enter Vermilion",
+     "actions": [
+      "refInstantTextLog"
+     ],
+     "areas": [],
+     "path": [
+      [
+       19,
+       0
+      ],
+      [
+       19,
+       6
+      ],
+      [
+       21,
+       6
+      ],
+      [
+       21,
+       14
+      ],
+      [
+       23,
+       14
+      ],
+      [
+       30,
+       14
+      ],
+      [
+       30,
+       26
+      ],
+      [
+       18,
+       26
+      ],
+      [
+       18,
+       31
+      ],
+      {
+       "do": "refInstantTextLog",
+       "at": "Vermilion (ship first)"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 94,
+     "map": "VERMILION_DOCK",
+     "title": "Mew",
+     "actions": [],
+     "areas": [
+      "S.S. Anne"
+     ],
+     "path": [
+      [
+       14,
+       0
+      ],
+      [
+       14,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 95,
+     "map": "SS_ANNE_1F",
+     "title": "First deck",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       27,
+       0
+      ],
+      [
+       27,
+       1
+      ],
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       7
+      ],
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       6
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 96,
+     "map": "SS_ANNE_2F",
+     "title": "Rival 3",
+     "actions": [
+      "potion",
+      "refInstantTextLog",
+      "rivalSandAttack"
+     ],
+     "areas": [],
+     "path": [
+      [
+       2,
+       4
+      ],
+      [
+       2,
+       11
+      ],
+      [
+       3,
+       11
+      ],
+      [
+       3,
+       12
+      ],
+      [
+       37,
+       12
+      ],
+      [
+       37,
+       9
+      ],
+      {
+       "do": "potion",
+       "hp": 20.0,
+       "yolo": 20.0,
+       "refShipIT": true
+      },
+      {
+       "do": "refInstantTextLog",
+       "at": "S.S. Anne rival"
+      },
+      [
+       37,
+       8
+      ],
+      {
+       "do": "rivalSandAttack"
+      },
+      [
+       36,
+       8
+      ],
+      [
+       36,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 101,
+     "map": "SS_ANNE_CAPTAINS_ROOM",
+     "title": "Old man Cut",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       7
+      ],
+      [
+       0,
+       4
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       3
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      [
+       4,
+       5
+      ],
+      [
+       0,
+       5
+      ],
+      [
+       0,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 96,
+     "map": "SS_ANNE_2F",
+     "title": "Second deck out",
+     "actions": [
+      "guess"
+     ],
+     "areas": [],
+     "path": [
+      [
+       36,
+       4
+      ],
+      {
+       "do": "guess",
+       "enabled": true,
+       "game": "trash"
+      },
+      [
+       36,
+       12
+      ],
+      [
+       3,
+       12
+      ],
+      [
+       3,
+       11
+      ],
+      [
+       2,
+       11
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 95,
+     "map": "SS_ANNE_1F",
+     "title": "First deck out",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       2,
+       6
+      ],
+      [
+       2,
+       7
+      ],
+      [
+       26,
+       7
+      ],
+      [
+       26,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 94,
+     "map": "VERMILION_DOCK",
+     "title": "Departure",
+     "actions": [
+      "epicCutscene"
+     ],
+     "areas": [],
+     "path": [
+      [
+       14,
+       2
+      ],
+      {
+       "do": "epicCutscene"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 5,
+     "map": "VERMILION_CITY",
+     "title": "To Surge",
+     "actions": [
+      "refShopVermilionLate",
+      "refVermilionRB3",
+      "potionBeforeSurge",
+      "swap",
+      "swap",
+      "teach",
+      "teach",
+      "teach",
+      "skill",
+      "refChain"
+     ],
+     "areas": [],
+     "path": [
+      [
+       18,
+       29
+      ],
+      [
+       18,
+       26
+      ],
+      [
+       30,
+       26
+      ],
+      [
+       30,
+       14
+      ],
+      [
+       23,
+       14
+      ],
+      {
+       "do": "refShopVermilionLate"
+      },
+      {
+       "do": "refVermilionRB3"
+      },
+      [
+       15,
+       14
+      ],
+      [
+       15,
+       17
+      ],
+      {
+       "do": "potionBeforeSurge"
+      },
+      {
+       "do": "swap",
+       "dest": "potion",
+       "item": 2,
+       "chain": true
+      },
+      {
+       "do": "swap",
+       "dest": 0,
+       "item": "repel",
+       "chain": true
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "replace": "tackle",
+       "move": "bubblebeam"
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "move": "cut",
+       "poke": [
+        "oddish",
+        "paras"
+       ]
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "move": "dig",
+       "poke": [
+        "paras",
+        "squirtle"
+       ]
+      },
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut"
+      },
+      [
+       15,
+       20
+      ],
+      [
+       12,
+       20
+      ],
+      {
+       "do": "refChain",
+       "name": "surge",
+       "rng": 105
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 92,
+     "map": "VERMILION_GYM",
+     "title": null,
+     "actions": [
+      "refSurgeVerify",
+      "talk",
+      "fightSurge",
+      "split",
+      "tweetSurge"
+     ],
+     "areas": [
+      "Surge's Gym"
+     ],
+     "path": [
+      [
+       3,
+       12
+      ],
+      {
+       "do": "refSurgeVerify"
+      },
+      [
+       4,
+       6
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "fightSurge"
+      },
+      {
+       "do": "split"
+      },
+      {
+       "do": "tweetSurge"
+      },
+      [
+       4,
+       2
+      ],
+      [
+       4,
+       13
+      ],
+      [
+       5,
+       13
+      ],
+      [
+       5,
+       18
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CERULEAN_CITY",
+    "CERULEAN_TRASHED_HOUSE",
+    "ROUTE_5",
+    "UNDERGROUND_PATH_ROUTE_5",
+    "UNDERGROUND_PATH_NORTH_SOUTH",
+    "UNDERGROUND_PATH_ROUTE_6",
+    "ROUTE_6",
+    "VERMILION_CITY",
+    "VERMILION_DOCK",
+    "SS_ANNE_1F",
+    "SS_ANNE_2F",
+    "SS_ANNE_CAPTAINS_ROOM",
+    "VERMILION_GYM"
+   ]
+  },
+  {
+   "split": 9,
+   "name": "Fly",
+   "steps": [
+    {
+     "map_id": 5,
+     "map": "VERMILION_CITY",
+     "title": "To bicycle house",
+     "actions": [
+      "skill"
+     ],
+     "areas": [
+      "Bicycle Shop"
+     ],
+     "path": [
+      [
+       12,
+       20
+      ],
+      [
+       15,
+       20
+      ],
+      [
+       15,
+       19
+      ],
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut"
+      },
+      [
+       15,
+       14
+      ],
+      [
+       9,
+       14
+      ],
+      [
+       9,
+       13
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 90,
+     "map": "POKEMON_FAN_CLUB",
+     "title": "Bicycle cert",
+     "actions": [
+      "dialogue",
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       0,
+       5
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Right"
+      },
+      {
+       "do": "skill",
+       "map": 90,
+       "move": "dig"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": "Cerulean warp",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       19,
+       18
+      ],
+      [
+       19,
+       23
+      ],
+      [
+       16,
+       23
+      ],
+      [
+       16,
+       26
+      ],
+      [
+       13,
+       26
+      ],
+      [
+       13,
+       25
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 66,
+     "map": "BIKE_SHOP",
+     "title": "Bicycle shop",
+     "actions": [
+      "procureBicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       3
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       2
+      ],
+      {
+       "do": "procureBicycle"
+      },
+      [
+       4,
+       7
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 3,
+     "map": "CERULEAN_CITY",
+     "title": "Bicycle out of Cerulean",
+     "actions": [
+      "swap",
+      "teach",
+      "bicycle",
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       13,
+       26
+      ],
+      {
+       "do": "swap",
+       "dest": 1,
+       "item": "bicycle",
+       "chain": true
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "replace": "horn_attack",
+       "move": "thunderbolt"
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       19,
+       26
+      ],
+      [
+       19,
+       27
+      ],
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut"
+      },
+      [
+       19,
+       29
+      ],
+      [
+       36,
+       29
+      ],
+      [
+       36,
+       16
+      ],
+      [
+       40,
+       16
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 20,
+     "map": "ROUTE_9",
+     "title": "TPP's Bane",
+     "actions": [
+      "skill",
+      "talk",
+      "fourTurnThrash",
+      "talk",
+      "announceVenonat"
+     ],
+     "areas": [
+      "Route 9"
+     ],
+     "path": [
+      [
+       0,
+       8
+      ],
+      [
+       4,
+       8
+      ],
+      {
+       "do": "skill",
+       "done": 3095,
+       "val": 2,
+       "move": "cut"
+      },
+      [
+       13,
+       8
+      ],
+      [
+       13,
+       9
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      {
+       "do": "fourTurnThrash"
+      },
+      [
+       12,
+       9
+      ],
+      [
+       12,
+       12
+      ],
+      [
+       23,
+       12
+      ],
+      [
+       23,
+       11
+      ],
+      [
+       29,
+       11
+      ],
+      [
+       29,
+       12
+      ],
+      [
+       41,
+       12
+      ],
+      [
+       41,
+       10
+      ],
+      [
+       40,
+       10
+      ],
+      [
+       40,
+       9
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "announceVenonat"
+      },
+      [
+       41,
+       9
+      ],
+      [
+       41,
+       6
+      ],
+      [
+       39,
+       6
+      ],
+      [
+       39,
+       4
+      ],
+      [
+       45,
+       4
+      ],
+      [
+       45,
+       3
+      ],
+      [
+       51,
+       3
+      ],
+      [
+       51,
+       8
+      ],
+      [
+       60,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 21,
+     "map": "ROUTE_10",
+     "title": "To the cave",
+     "actions": [
+      "item"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       8
+      ],
+      [
+       3,
+       8
+      ],
+      [
+       3,
+       10
+      ],
+      [
+       13,
+       10
+      ],
+      [
+       13,
+       15
+      ],
+      [
+       14,
+       15
+      ],
+      [
+       14,
+       26
+      ],
+      [
+       3,
+       26
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       7,
+       18
+      ],
+      {
+       "do": "item",
+       "item": "repel"
+      },
+      [
+       8,
+       18
+      ],
+      [
+       8,
+       17
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 82,
+     "map": "ROCK_TUNNEL_1F",
+     "title": "Rock Tunnel",
+     "actions": [
+      "talk",
+      "redbarCubone"
+     ],
+     "areas": [
+      "Rock Tunnel"
+     ],
+     "path": [
+      [
+       15,
+       3
+      ],
+      [
+       15,
+       6
+      ],
+      [
+       23,
+       6
+      ],
+      [
+       23,
+       7
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      {
+       "do": "redbarCubone"
+      },
+      [
+       22,
+       7
+      ],
+      [
+       22,
+       10
+      ],
+      [
+       37,
+       10
+      ],
+      [
+       37,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 232,
+     "map": "ROCK_TUNNEL_B1F",
+     "title": "B1",
+     "actions": [
+      "talk",
+      "potion",
+      "talk",
+      "announceOddish",
+      "item",
+      "healParalysis"
+     ],
+     "areas": [],
+     "path": [
+      [
+       33,
+       25
+      ],
+      [
+       33,
+       30
+      ],
+      [
+       27,
+       30
+      ],
+      {
+       "do": "talk",
+       "dir": "Left"
+      },
+      [
+       27,
+       31
+      ],
+      [
+       14,
+       31
+      ],
+      [
+       14,
+       29
+      ],
+      {
+       "do": "potion",
+       "yolo": 0,
+       "hp": 6
+      },
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "announceOddish"
+      },
+      [
+       17,
+       29
+      ],
+      [
+       17,
+       24
+      ],
+      [
+       25,
+       24
+      ],
+      [
+       25,
+       16
+      ],
+      [
+       37,
+       16
+      ],
+      [
+       37,
+       11
+      ],
+      {
+       "do": "item",
+       "item": "repel",
+       "chain": true
+      },
+      {
+       "do": "healParalysis"
+      },
+      [
+       37,
+       3
+      ],
+      [
+       27,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 82,
+     "map": "ROCK_TUNNEL_1F",
+     "title": "B2",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       9
+      ],
+      [
+       11,
+       9
+      ],
+      [
+       11,
+       14
+      ],
+      [
+       17,
+       14
+      ],
+      [
+       17,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 232,
+     "map": "ROCK_TUNNEL_B1F",
+     "title": "B1",
+     "actions": [
+      "talk",
+      "item"
+     ],
+     "areas": [],
+     "path": [
+      [
+       23,
+       11
+      ],
+      [
+       14,
+       11
+      ],
+      [
+       14,
+       17
+      ],
+      [
+       8,
+       17
+      ],
+      [
+       8,
+       10
+      ],
+      [
+       7,
+       10
+      ],
+      {
+       "do": "talk",
+       "dir": "Left"
+      },
+      [
+       7,
+       11
+      ],
+      [
+       5,
+       11
+      ],
+      {
+       "do": "item",
+       "item": "repel"
+      },
+      [
+       5,
+       3
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 82,
+     "map": "ROCK_TUNNEL_1F",
+     "title": "Out of the Tunnel",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       37,
+       17
+      ],
+      [
+       32,
+       17
+      ],
+      [
+       32,
+       23
+      ],
+      [
+       37,
+       23
+      ],
+      [
+       37,
+       28
+      ],
+      [
+       28,
+       28
+      ],
+      [
+       26,
+       24
+      ],
+      [
+       23,
+       24
+      ],
+      {
+       "do": "talk",
+       "dir": "Left"
+      },
+      [
+       23,
+       27
+      ],
+      [
+       15,
+       27
+      ],
+      [
+       15,
+       33
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 21,
+     "map": "ROUTE_10",
+     "title": "To Lavender Town",
+     "actions": [
+      "refHidden"
+     ],
+     "areas": [
+      "Lavender Town"
+     ],
+     "path": [
+      [
+       8,
+       54
+      ],
+      [
+       15,
+       54
+      ],
+      [
+       15,
+       53
+      ],
+      {
+       "do": "refHidden",
+       "item": "max_ether",
+       "y": 53,
+       "dir": "Right",
+       "x": 15
+      },
+      [
+       15,
+       65
+      ],
+      [
+       11,
+       65
+      ],
+      [
+       11,
+       69
+      ],
+      [
+       6,
+       69
+      ],
+      [
+       6,
+       72
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 4,
+     "map": "LAVENDER_TOWN",
+     "title": "Through Lavender",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       6,
+       0
+      ],
+      [
+       6,
+       6
+      ],
+      [
+       0,
+       6
+      ],
+      [
+       0,
+       8
+      ],
+      [
+       -1,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 19,
+     "map": "ROUTE_8",
+     "title": "Leave Lavender",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       59,
+       8
+      ],
+      [
+       52,
+       8
+      ],
+      [
+       52,
+       13
+      ],
+      [
+       47,
+       13
+      ],
+      {
+       "do": "talk",
+       "dir": "Left"
+      },
+      [
+       47,
+       14
+      ],
+      [
+       42,
+       14
+      ],
+      [
+       42,
+       7
+      ],
+      [
+       40,
+       7
+      ],
+      [
+       40,
+       6
+      ],
+      [
+       29,
+       6
+      ],
+      [
+       29,
+       7
+      ],
+      [
+       23,
+       7
+      ],
+      [
+       23,
+       12
+      ],
+      [
+       14,
+       12
+      ],
+      [
+       14,
+       4
+      ],
+      [
+       13,
+       4
+      ],
+      [
+       13,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 80,
+     "map": "UNDERGROUND_PATH_ROUTE_8",
+     "title": "Underground entrance",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 121,
+     "map": "UNDERGROUND_PATH_WEST_EAST",
+     "title": "Underground",
+     "actions": [
+      "bicycle",
+      "undergroundElixer"
+     ],
+     "areas": [],
+     "path": [
+      [
+       47,
+       2
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       47,
+       5
+      ],
+      [
+       22,
+       5
+      ],
+      {
+       "do": "undergroundElixer"
+      },
+      [
+       2,
+       5
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 77,
+     "map": "UNDERGROUND_PATH_ROUTE_7",
+     "title": "Underground exit",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 18,
+     "map": "ROUTE_7",
+     "title": "To Celadon",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       5,
+       14
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       8,
+       14
+      ],
+      [
+       8,
+       8
+      ],
+      [
+       4,
+       8
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       -1,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Celadon",
+     "actions": [],
+     "areas": [
+      "Celadon Mart"
+     ],
+     "path": [
+      [
+       49,
+       11
+      ],
+      [
+       14,
+       11
+      ],
+      [
+       14,
+       14
+      ],
+      [
+       10,
+       14
+      ],
+      [
+       10,
+       13
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 122,
+     "map": "CELADON_MART_1F",
+     "title": "F1: Department store",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       16,
+       7
+      ],
+      [
+       16,
+       3
+      ],
+      [
+       12,
+       3
+      ],
+      [
+       12,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 123,
+     "map": "CELADON_MART_2F",
+     "title": "F2",
+     "actions": [
+      "shopTM07",
+      "refShopRepels",
+      "dodgeDepartment"
+     ],
+     "areas": [],
+     "path": [
+      [
+       12,
+       2
+      ],
+      [
+       8,
+       2
+      ],
+      [
+       8,
+       5
+      ],
+      [
+       6,
+       5
+      ],
+      {
+       "do": "shopTM07"
+      },
+      [
+       5,
+       5
+      ],
+      {
+       "do": "refShopRepels"
+      },
+      [
+       9,
+       5
+      ],
+      {
+       "do": "dodgeDepartment"
+      },
+      [
+       15,
+       2
+      ],
+      [
+       16,
+       2
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 124,
+     "map": "CELADON_MART_3F",
+     "title": "F3",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       16,
+       2
+      ],
+      [
+       12,
+       2
+      ],
+      [
+       12,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 125,
+     "map": "CELADON_MART_4F",
+     "title": "F4: Poke Doll",
+     "actions": [
+      "shopPokeDoll"
+     ],
+     "areas": [],
+     "path": [
+      [
+       12,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       10,
+       5
+      ],
+      [
+       5,
+       5
+      ],
+      {
+       "do": "shopPokeDoll"
+      },
+      [
+       11,
+       5
+      ],
+      [
+       11,
+       2
+      ],
+      [
+       16,
+       2
+      ],
+      [
+       16,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 136,
+     "map": "CELADON_MART_5F",
+     "title": "F5",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       16,
+       2
+      ],
+      [
+       12,
+       2
+      ],
+      [
+       12,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 126,
+     "map": "CELADON_MART_ROOF",
+     "title": "Roof",
+     "actions": [
+      "refVendSoda",
+      "giveWater",
+      "shopExtraWater"
+     ],
+     "areas": [],
+     "path": [
+      [
+       15,
+       3
+      ],
+      [
+       12,
+       3
+      ],
+      {
+       "do": "refVendSoda"
+      },
+      [
+       6,
+       3
+      ],
+      [
+       6,
+       4
+      ],
+      {
+       "do": "giveWater"
+      },
+      [
+       6,
+       4
+      ],
+      [
+       7,
+       3
+      ],
+      [
+       12,
+       3
+      ],
+      {
+       "do": "shopExtraWater"
+      },
+      [
+       15,
+       3
+      ],
+      [
+       15,
+       2
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 136,
+     "map": "CELADON_MART_5F",
+     "title": "F5: Buffs",
+     "actions": [
+      "refShopBuffs"
+     ],
+     "areas": [],
+     "path": [
+      [
+       12,
+       2
+      ],
+      [
+       8,
+       2
+      ],
+      [
+       8,
+       5
+      ],
+      [
+       5,
+       5
+      ],
+      {
+       "do": "refShopBuffs"
+      },
+      [
+       1,
+       5
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 127,
+     "map": "CELADON_MART_ELEVATOR",
+     "title": "Elevator",
+     "actions": [
+      "deptElevator"
+     ],
+     "areas": [],
+     "path": [
+      [
+       1,
+       3
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       1
+      ],
+      {
+       "do": "deptElevator"
+      },
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 122,
+     "map": "CELADON_MART_1F",
+     "title": "F1: Exit department store",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       6
+      ],
+      [
+       2,
+       6
+      ],
+      [
+       2,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Leave Celadon",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       8,
+       14
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       8,
+       15
+      ],
+      [
+       2,
+       15
+      ],
+      [
+       2,
+       18
+      ],
+      [
+       -1,
+       18
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 27,
+     "map": "ROUTE_16",
+     "title": "Cut out of Celadon",
+     "actions": [
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       39,
+       10
+      ],
+      [
+       34,
+       10
+      ],
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut",
+       "dir": "Up"
+      },
+      [
+       34,
+       6
+      ],
+      [
+       27,
+       6
+      ],
+      [
+       27,
+       4
+      ],
+      [
+       23,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 186,
+     "map": "ROUTE_16_GATE_1F",
+     "title": "Old man's hall",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       7,
+       2
+      ],
+      [
+       -1,
+       2
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 27,
+     "map": "ROUTE_16",
+     "title": "To the Fly house",
+     "actions": [
+      "refFreeSlot"
+     ],
+     "areas": [
+      "HM02 Fly"
+     ],
+     "path": [
+      [
+       17,
+       4
+      ],
+      {
+       "do": "refFreeSlot"
+      },
+      [
+       10,
+       4
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       7,
+       6
+      ],
+      [
+       7,
+       5
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 188,
+     "map": "ROUTE_16_FLY_HOUSE",
+     "title": "Fly house",
+     "actions": [
+      "talk",
+      "split"
+     ],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      [
+       2,
+       5
+      ],
+      {
+       "do": "split"
+      },
+      [
+       2,
+       8
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "VERMILION_CITY",
+    "POKEMON_FAN_CLUB",
+    "CERULEAN_CITY",
+    "BIKE_SHOP",
+    "ROUTE_9",
+    "ROUTE_10",
+    "ROCK_TUNNEL_1F",
+    "ROCK_TUNNEL_B1F",
+    "LAVENDER_TOWN",
+    "ROUTE_8",
+    "UNDERGROUND_PATH_ROUTE_8",
+    "UNDERGROUND_PATH_WEST_EAST",
+    "UNDERGROUND_PATH_ROUTE_7",
+    "ROUTE_7",
+    "CELADON_CITY",
+    "CELADON_MART_1F",
+    "CELADON_MART_2F",
+    "CELADON_MART_3F",
+    "CELADON_MART_4F",
+    "CELADON_MART_5F",
+    "CELADON_MART_ROOF",
+    "CELADON_MART_ELEVATOR",
+    "ROUTE_16",
+    "ROUTE_16_GATE_1F",
+    "ROUTE_16_FLY_HOUSE"
+   ]
+  },
+  {
+   "split": 10,
+   "name": "Flute",
+   "steps": [
+    {
+     "map_id": 27,
+     "map": "ROUTE_16",
+     "title": "Fly to Lavender",
+     "actions": [
+      "swap",
+      "potion",
+      "teach",
+      "item",
+      "swap",
+      "teach",
+      "teach",
+      "fly"
+     ],
+     "areas": [],
+     "path": [
+      [
+       7,
+       6
+      ],
+      {
+       "do": "swap",
+       "dest": 1,
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "potion",
+       "refLavenderFloor": true,
+       "hp": 10,
+       "chain": true
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "replace": "bubblebeam",
+       "move": "horn_drill"
+      },
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "swap",
+       "dest": 2,
+       "item": "x_accuracy",
+       "chain": true
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "move": "fly",
+       "poke": [
+        "spearow",
+        "pidgey",
+        "pidgeotto"
+       ]
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "replace": "poison_sting",
+       "move": "rock_slide"
+      },
+      {
+       "do": "fly",
+       "dest": "lavender",
+       "map": 4
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 4,
+     "map": "LAVENDER_TOWN",
+     "title": "To the tower",
+     "actions": [],
+     "areas": [
+      "Pokemon Tower"
+     ],
+     "path": [
+      [
+       3,
+       6
+      ],
+      [
+       14,
+       6
+      ],
+      [
+       14,
+       5
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 142,
+     "map": "POKEMON_TOWER_1F",
+     "title": "Pokemon Tower",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       10,
+       17
+      ],
+      [
+       10,
+       10
+      ],
+      [
+       18,
+       10
+      ],
+      [
+       18,
+       9
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 143,
+     "map": "POKEMON_TOWER_2F",
+     "title": "F2: Rival",
+     "actions": [
+      "lavenderRival"
+     ],
+     "areas": [],
+     "path": [
+      [
+       18,
+       9
+      ],
+      [
+       18,
+       7
+      ],
+      [
+       16,
+       7
+      ],
+      [
+       16,
+       5
+      ],
+      [
+       15,
+       5
+      ],
+      {
+       "do": "lavenderRival"
+      },
+      [
+       5,
+       5
+      ],
+      [
+       5,
+       8
+      ],
+      [
+       3,
+       8
+      ],
+      [
+       3,
+       9
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 144,
+     "map": "POKEMON_TOWER_3F",
+     "title": "F3",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       3,
+       9
+      ],
+      [
+       3,
+       10
+      ],
+      [
+       6,
+       10
+      ],
+      [
+       6,
+       13
+      ],
+      [
+       8,
+       13
+      ],
+      [
+       8,
+       6
+      ],
+      [
+       17,
+       6
+      ],
+      [
+       17,
+       9
+      ],
+      [
+       18,
+       9
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 145,
+     "map": "POKEMON_TOWER_4F",
+     "title": "F4",
+     "actions": [
+      "talk",
+      "digFight",
+      "take"
+     ],
+     "areas": [],
+     "path": [
+      [
+       18,
+       9
+      ],
+      [
+       18,
+       7
+      ],
+      [
+       16,
+       7
+      ],
+      {
+       "do": "talk",
+       "dir": "Left"
+      },
+      {
+       "do": "digFight"
+      },
+      [
+       16,
+       9
+      ],
+      [
+       14,
+       9
+      ],
+      [
+       14,
+       10
+      ],
+      [
+       13,
+       10
+      ],
+      {
+       "do": "take",
+       "dir": "Left"
+      },
+      [
+       14,
+       10
+      ],
+      [
+       14,
+       8
+      ],
+      [
+       11,
+       8
+      ],
+      [
+       11,
+       9
+      ],
+      [
+       10,
+       9
+      ],
+      [
+       10,
+       12
+      ],
+      [
+       7,
+       12
+      ],
+      [
+       7,
+       11
+      ],
+      [
+       4,
+       11
+      ],
+      [
+       4,
+       10
+      ],
+      [
+       3,
+       10
+      ],
+      [
+       3,
+       9
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 146,
+     "map": "POKEMON_TOWER_5F",
+     "title": "F5",
+     "actions": [
+      "take"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       9
+      ],
+      [
+       4,
+       9
+      ],
+      [
+       4,
+       11
+      ],
+      {
+       "do": "take",
+       "dir": "Down"
+      },
+      [
+       4,
+       6
+      ],
+      [
+       13,
+       6
+      ],
+      [
+       13,
+       9
+      ],
+      [
+       9,
+       9
+      ],
+      [
+       9,
+       12
+      ],
+      [
+       14,
+       12
+      ],
+      [
+       14,
+       10
+      ],
+      [
+       18,
+       10
+      ],
+      [
+       18,
+       9
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 147,
+     "map": "POKEMON_TOWER_6F",
+     "title": "F6",
+     "actions": [
+      "interact",
+      "interact",
+      "pokeDoll"
+     ],
+     "areas": [],
+     "path": [
+      [
+       18,
+       9
+      ],
+      [
+       18,
+       7
+      ],
+      [
+       15,
+       7
+      ],
+      [
+       15,
+       3
+      ],
+      [
+       11,
+       3
+      ],
+      [
+       11,
+       5
+      ],
+      [
+       10,
+       5
+      ],
+      {
+       "do": "interact",
+       "dir": "Left"
+      },
+      [
+       10,
+       6
+      ],
+      [
+       6,
+       6
+      ],
+      [
+       6,
+       7
+      ],
+      {
+       "do": "interact",
+       "dir": "Down"
+      },
+      [
+       6,
+       14
+      ],
+      [
+       10,
+       14
+      ],
+      [
+       10,
+       16
+      ],
+      {
+       "do": "pokeDoll"
+      },
+      [
+       9,
+       16
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 148,
+     "map": "POKEMON_TOWER_7F",
+     "title": "F7: Top",
+     "actions": [
+      "fightX",
+      "thunderboltFirst",
+      "interact"
+     ],
+     "areas": [],
+     "path": [
+      [
+       9,
+       16
+      ],
+      [
+       10,
+       16
+      ],
+      [
+       10,
+       9
+      ],
+      {
+       "do": "fightX",
+       "x": "accuracy"
+      },
+      [
+       10,
+       7
+      ],
+      {
+       "do": "thunderboltFirst"
+      },
+      [
+       10,
+       4
+      ],
+      {
+       "do": "interact",
+       "dir": "Up"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 149,
+     "map": "MR_FUJIS_HOUSE",
+     "title": "Old man's house",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       2,
+       6
+      ],
+      [
+       2,
+       1
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      [
+       2,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 4,
+     "map": "LAVENDER_TOWN",
+     "title": "Lavender -> Celadon",
+     "actions": [
+      "split",
+      "fly"
+     ],
+     "areas": [],
+     "path": [
+      [
+       7,
+       10
+      ],
+      {
+       "do": "split"
+      },
+      {
+       "do": "fly",
+       "dest": "celadon",
+       "map": 6
+      }
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "ROUTE_16",
+    "LAVENDER_TOWN",
+    "POKEMON_TOWER_1F",
+    "POKEMON_TOWER_2F",
+    "POKEMON_TOWER_3F",
+    "POKEMON_TOWER_4F",
+    "POKEMON_TOWER_5F",
+    "POKEMON_TOWER_6F",
+    "POKEMON_TOWER_7F",
+    "MR_FUJIS_HOUSE"
+   ]
+  },
+  {
+   "split": 11,
+   "name": "Silph Giovanni",
+   "steps": [
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "To Celadon Center",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       41,
+       10
+      ],
+      [
+       41,
+       9
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 133,
+     "map": "CELADON_POKECENTER",
+     "title": "Celadon Center",
+     "actions": [
+      "dialogue"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       3
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Celadon again",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       41,
+       10
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       41,
+       11
+      ],
+      [
+       50,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 18,
+     "map": "ROUTE_7",
+     "title": "To Saffron",
+     "actions": [],
+     "areas": [
+      "Saffron City"
+     ],
+     "path": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       9
+      ],
+      [
+       10,
+       9
+      ],
+      [
+       10,
+       10
+      ],
+      [
+       12,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 76,
+     "map": "ROUTE_7_GATE",
+     "title": "Thirsty guard",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       0,
+       4
+      ],
+      [
+       6,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 18,
+     "map": "ROUTE_7",
+     "title": "Saffron entry",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       18,
+       10
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       20,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 10,
+     "map": "SAFFRON_CITY",
+     "title": "Saffron City",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       0,
+       18
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       3,
+       22
+      ],
+      [
+       18,
+       22
+      ],
+      [
+       18,
+       21
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 181,
+     "map": "SILPH_CO_1F",
+     "title": null,
+     "actions": [],
+     "areas": [
+      "Silph Co."
+     ],
+     "path": [
+      [
+       10,
+       17
+      ],
+      [
+       10,
+       13
+      ],
+      [
+       26,
+       13
+      ],
+      [
+       26,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 207,
+     "map": "SILPH_CO_2F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       24,
+       1
+      ],
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 208,
+     "map": "SILPH_CO_3F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       26,
+       1
+      ],
+      [
+       24,
+       1
+      ],
+      [
+       24,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 209,
+     "map": "SILPH_CO_4F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       24,
+       1
+      ],
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 210,
+     "map": "SILPH_CO_5F",
+     "title": null,
+     "actions": [
+      "refFreeSlot",
+      "refHidden",
+      "talk",
+      "refFightX"
+     ],
+     "areas": [],
+     "path": [
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       3
+      ],
+      [
+       13,
+       3
+      ],
+      {
+       "do": "refFreeSlot"
+      },
+      {
+       "do": "refHidden",
+       "item": "elixer",
+       "y": 3,
+       "dir": "Left",
+       "x": 13
+      },
+      [
+       13,
+       4
+      ],
+      [
+       8,
+       4
+      ],
+      [
+       8,
+       15
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      {
+       "do": "refFightX",
+       "label": "Silph 5F Arbok Rocket",
+       "reserve": 9,
+       "move": "horn_drill",
+       "x": "accuracy"
+      },
+      [
+       9,
+       15
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 233,
+     "map": "SILPH_CO_9F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       17,
+       15
+      ],
+      [
+       17,
+       14
+      ],
+      [
+       17,
+       15
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 210,
+     "map": "SILPH_CO_5F",
+     "title": null,
+     "actions": [
+      "take"
+     ],
+     "areas": [],
+     "path": [
+      [
+       9,
+       15
+      ],
+      [
+       9,
+       16
+      ],
+      [
+       20,
+       16
+      ],
+      {
+       "do": "take",
+       "dir": "Right"
+      },
+      [
+       9,
+       16
+      ],
+      [
+       9,
+       15
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 233,
+     "map": "SILPH_CO_9F",
+     "title": "bounce 2",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       17,
+       15
+      ],
+      [
+       17,
+       14
+      ],
+      [
+       17,
+       15
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 210,
+     "map": "SILPH_CO_5F",
+     "title": null,
+     "actions": [
+      "interact"
+     ],
+     "areas": [],
+     "path": [
+      [
+       9,
+       15
+      ],
+      [
+       9,
+       13
+      ],
+      [
+       8,
+       13
+      ],
+      {
+       "do": "interact",
+       "dir": "Left"
+      },
+      [
+       6,
+       13
+      ],
+      [
+       6,
+       16
+      ],
+      [
+       3,
+       16
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 208,
+     "map": "SILPH_CO_3F",
+     "title": null,
+     "actions": [
+      "interact"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       15
+      ],
+      [
+       4,
+       15
+      ],
+      [
+       18,
+       15
+      ],
+      [
+       18,
+       9
+      ],
+      {
+       "do": "interact",
+       "dir": "Left"
+      },
+      [
+       16,
+       9
+      ],
+      [
+       16,
+       11
+      ],
+      [
+       11,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 212,
+     "map": "SILPH_CO_7F",
+     "title": "Rival 5",
+     "actions": [
+      "silphRival"
+     ],
+     "areas": [
+      "Silph Rival"
+     ],
+     "path": [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       2
+      ],
+      [
+       4,
+       2
+      ],
+      [
+       3,
+       2
+      ],
+      {
+       "do": "silphRival"
+      },
+      [
+       3,
+       7
+      ],
+      [
+       5,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 235,
+     "map": "SILPH_CO_11F",
+     "title": null,
+     "actions": [
+      "refRestorePP",
+      "talk",
+      "refFightX",
+      "refRecoveryPotion",
+      "interact",
+      "fightX",
+      "fightSilphGiovanni",
+      "split"
+     ],
+     "areas": [
+      "Silph Giovanni"
+     ],
+     "path": [
+      [
+       3,
+       2
+      ],
+      {
+       "do": "refRestorePP",
+       "moves": [
+        [
+         "horn_drill",
+         "max"
+        ]
+       ],
+       "prefer": [
+        "elixer",
+        "max_ether",
+        "ether"
+       ]
+      },
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       16
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      {
+       "do": "refFightX",
+       "label": "Silph 11F Rocket",
+       "byOpponent": {
+        "cubone": "bubblebeam"
+       },
+       "reserve": 7,
+       "move": "horn_drill",
+       "x": "accuracy"
+      },
+      [
+       2,
+       15
+      ],
+      [
+       6,
+       15
+      ],
+      {
+       "do": "refRecoveryPotion",
+       "hp": 17,
+       "why": "Giovanni below 17 HP (reference 25/123, no heal)"
+      },
+      [
+       6,
+       14
+      ],
+      {
+       "do": "interact",
+       "dir": "Up"
+      },
+      [
+       6,
+       13
+      ],
+      {
+       "do": "fightX",
+       "x": "accuracy"
+      },
+      {
+       "do": "fightSilphGiovanni"
+      },
+      {
+       "do": "split"
+      },
+      [
+       6,
+       14
+      ],
+      [
+       3,
+       14
+      ],
+      [
+       3,
+       2
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CELADON_CITY",
+    "CELADON_POKECENTER",
+    "ROUTE_7",
+    "ROUTE_7_GATE",
+    "SAFFRON_CITY",
+    "SILPH_CO_1F",
+    "SILPH_CO_2F",
+    "SILPH_CO_3F",
+    "SILPH_CO_4F",
+    "SILPH_CO_5F",
+    "SILPH_CO_9F",
+    "SILPH_CO_7F",
+    "SILPH_CO_11F"
+   ]
+  },
+  {
+   "split": 12,
+   "name": "Koga",
+   "steps": [
+    {
+     "map_id": 212,
+     "map": "SILPH_CO_7F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       5,
+       7
+      ],
+      [
+       4,
+       7
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       3
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 208,
+     "map": "SILPH_CO_3F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       11,
+       11
+      ],
+      [
+       12,
+       11
+      ],
+      [
+       16,
+       11
+      ],
+      [
+       16,
+       9
+      ],
+      [
+       18,
+       9
+      ],
+      [
+       18,
+       7
+      ],
+      [
+       20,
+       7
+      ],
+      [
+       20,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 236,
+     "map": "SILPH_CO_ELEVATOR",
+     "title": null,
+     "actions": [
+      "refSilphElevator"
+     ],
+     "areas": [],
+     "path": [
+      [
+       1,
+       3
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       1
+      ],
+      {
+       "do": "refSilphElevator",
+       "index": 8
+      },
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 233,
+     "map": "SILPH_CO_9F",
+     "title": null,
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       18,
+       1
+      ],
+      [
+       14,
+       1
+      ],
+      [
+       14,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 234,
+     "map": "SILPH_CO_10F",
+     "title": null,
+     "actions": [
+      "take",
+      "take",
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       8,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       9
+      ],
+      [
+       1,
+       9
+      ],
+      [
+       1,
+       12
+      ],
+      {
+       "do": "take",
+       "dir": "Right"
+      },
+      [
+       1,
+       13
+      ],
+      [
+       1,
+       15
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       3,
+       14
+      ],
+      {
+       "do": "take",
+       "dir": "Right"
+      },
+      {
+       "do": "skill",
+       "map": 234,
+       "move": "dig"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Leave Celadon",
+     "actions": [
+      "item",
+      "bicycle"
+     ],
+     "areas": [
+      "Snorlax"
+     ],
+     "path": [
+      [
+       41,
+       10
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       41,
+       11
+      ],
+      [
+       14,
+       11
+      ],
+      [
+       14,
+       14
+      ],
+      [
+       2,
+       14
+      ],
+      [
+       2,
+       18
+      ],
+      [
+       -1,
+       18
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 27,
+     "map": "ROUTE_16",
+     "title": "トトロだ！",
+     "actions": [
+      "swapXSpeeds",
+      "playPokeFlute"
+     ],
+     "areas": [],
+     "path": [
+      [
+       39,
+       10
+      ],
+      [
+       27,
+       10
+      ],
+      {
+       "do": "swapXSpeeds"
+      },
+      {
+       "do": "playPokeFlute"
+      },
+      [
+       23,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 186,
+     "map": "ROUTE_16_GATE_1F",
+     "title": "Snorlax pass",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       7,
+       8
+      ],
+      [
+       -1,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 27,
+     "map": "ROUTE_16",
+     "title": "Bicycle road",
+     "actions": [
+      "refFreeSlot"
+     ],
+     "areas": [
+      "Bicycle Road"
+     ],
+     "path": [
+      [
+       17,
+       10
+      ],
+      {
+       "do": "refFreeSlot"
+      },
+      [
+       12,
+       10
+      ],
+      [
+       12,
+       13
+      ],
+      [
+       11,
+       13
+      ],
+      [
+       11,
+       18
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 28,
+     "map": "ROUTE_17",
+     "title": "Forced down inputs",
+     "actions": [
+      "drivebyRareCandy",
+      "refHidden"
+     ],
+     "areas": [],
+     "path": [
+      [
+       11,
+       0
+      ],
+      [
+       11,
+       5
+      ],
+      [
+       15,
+       5
+      ],
+      [
+       15,
+       12
+      ],
+      {
+       "do": "drivebyRareCandy"
+      },
+      [
+       15,
+       14
+      ],
+      [
+       18,
+       14
+      ],
+      [
+       18,
+       64
+      ],
+      {
+       "do": "refHidden",
+       "item": "pp_up",
+       "slope": true,
+       "y": 71,
+       "dir": "Down",
+       "x": 17
+      },
+      [
+       18,
+       122
+      ],
+      [
+       13,
+       122
+      ],
+      [
+       13,
+       143
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 29,
+     "map": "ROUTE_18",
+     "title": "Cycling road exit",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       13,
+       0
+      ],
+      [
+       13,
+       8
+      ],
+      [
+       34,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 190,
+     "map": "ROUTE_18_GATE_1F",
+     "title": "Exit building",
+     "actions": [
+      "refPPUp",
+      "refTeach",
+      "refMf2Close"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       4
+      ],
+      {
+       "do": "refPPUp",
+       "chain": true,
+       "move": "horn_drill"
+      },
+      {
+       "do": "refTeach",
+       "move": "earthquake",
+       "replace": "rock_slide",
+       "poke": "nidoking"
+      },
+      {
+       "do": "refMf2Close"
+      },
+      [
+       8,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 29,
+     "map": "ROUTE_18",
+     "title": "Enter Safari City",
+     "actions": [
+      "item",
+      "teach",
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       40,
+       8
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "replace": "rock_slide",
+       "move": "ice_beam"
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       50,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 7,
+     "map": "FUCHSIA_CITY",
+     "title": "Safari City",
+     "actions": [],
+     "areas": [
+      "Safari Zone"
+     ],
+     "path": [
+      [
+       0,
+       16
+      ],
+      [
+       3,
+       16
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       23,
+       20
+      ],
+      [
+       23,
+       14
+      ],
+      [
+       29,
+       14
+      ],
+      [
+       29,
+       15
+      ],
+      [
+       35,
+       15
+      ],
+      [
+       35,
+       8
+      ],
+      [
+       37,
+       8
+      ],
+      [
+       37,
+       2
+      ],
+      [
+       22,
+       2
+      ],
+      [
+       22,
+       4
+      ],
+      [
+       18,
+       4
+      ],
+      [
+       18,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 156,
+     "map": "SAFARI_ZONE_GATE",
+     "title": "Safari entrance",
+     "actions": [
+      "dialogue"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       5
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       4,
+       2
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Right"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 220,
+     "map": "SAFARI_ZONE_CENTER",
+     "title": "Safari 1",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       15,
+       25
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       15,
+       16
+      ],
+      [
+       28,
+       16
+      ],
+      [
+       28,
+       11
+      ],
+      [
+       30,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 217,
+     "map": "SAFARI_ZONE_EAST",
+     "title": null,
+     "actions": [
+      "item",
+      "tossInSafari",
+      "item"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       23
+      ],
+      [
+       4,
+       23
+      ],
+      [
+       4,
+       24
+      ],
+      [
+       20,
+       24
+      ],
+      [
+       20,
+       20
+      ],
+      [
+       12,
+       20
+      ],
+      [
+       12,
+       22
+      ],
+      [
+       11,
+       22
+      ],
+      [
+       10,
+       22
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "tossInSafari"
+      },
+      {
+       "do": "item",
+       "item": "carbos",
+       "poke": "nidoking"
+      },
+      [
+       9,
+       22
+      ],
+      [
+       9,
+       8
+      ],
+      [
+       12,
+       8
+      ],
+      [
+       12,
+       6
+      ],
+      [
+       17,
+       6
+      ],
+      [
+       17,
+       8
+      ],
+      [
+       20,
+       8
+      ],
+      [
+       20,
+       3
+      ],
+      [
+       7,
+       3
+      ],
+      [
+       7,
+       5
+      ],
+      [
+       -1,
+       5
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 218,
+     "map": "SAFARI_ZONE_NORTH",
+     "title": "Safari 3",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       39,
+       31
+      ],
+      [
+       22,
+       31
+      ],
+      [
+       22,
+       22
+      ],
+      [
+       16,
+       22
+      ],
+      [
+       16,
+       28
+      ],
+      [
+       13,
+       28
+      ],
+      [
+       13,
+       9
+      ],
+      [
+       28,
+       9
+      ],
+      [
+       28,
+       3
+      ],
+      [
+       3,
+       3
+      ],
+      [
+       3,
+       36
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 219,
+     "map": "SAFARI_ZONE_WEST",
+     "title": "Safari 4",
+     "actions": [
+      "interact"
+     ],
+     "areas": [],
+     "path": [
+      [
+       21,
+       0
+      ],
+      [
+       21,
+       5
+      ],
+      [
+       19,
+       5
+      ],
+      [
+       19,
+       6
+      ],
+      {
+       "do": "interact",
+       "dir": "Down"
+      },
+      [
+       19,
+       5
+      ],
+      [
+       7,
+       5
+      ],
+      [
+       7,
+       6
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 222,
+     "map": "SAFARI_ZONE_SECRET_HOUSE",
+     "title": "Warden",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       2,
+       7
+      ],
+      [
+       2,
+       6
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       3,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      [
+       3,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 219,
+     "map": "SAFARI_ZONE_WEST",
+     "title": "Safari Warp",
+     "actions": [
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       3,
+       4
+      ],
+      {
+       "do": "skill",
+       "map": 219,
+       "move": "dig"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Fly to Fuschia",
+     "actions": [
+      "fly"
+     ],
+     "areas": [],
+     "path": [
+      [
+       41,
+       10
+      ],
+      {
+       "do": "fly",
+       "dest": "fuchsia",
+       "map": 7
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 7,
+     "map": "FUCHSIA_CITY",
+     "title": "To Koga",
+     "actions": [],
+     "areas": [
+      "Koga's Gym"
+     ],
+     "path": [
+      [
+       19,
+       28
+      ],
+      [
+       5,
+       28
+      ],
+      [
+       5,
+       27
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 157,
+     "map": "FUCHSIA_GYM",
+     "title": "Koga",
+     "actions": [
+      "talk",
+      "elixer",
+      "potionBeforeHypno",
+      "fightHypno",
+      "elixer",
+      "talk",
+      "fightKoga",
+      "split"
+     ],
+     "areas": [],
+     "path": [
+      [
+       4,
+       17
+      ],
+      [
+       4,
+       16
+      ],
+      [
+       9,
+       16
+      ],
+      [
+       9,
+       9
+      ],
+      [
+       7,
+       9
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      [
+       9,
+       9
+      ],
+      [
+       9,
+       1
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ],
+      {
+       "do": "elixer",
+       "chain": true,
+       "min": 2,
+       "move": "earthquake"
+      },
+      {
+       "do": "potionBeforeHypno"
+      },
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       3
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       1,
+       7
+      ],
+      {
+       "do": "fightHypno"
+      },
+      [
+       1,
+       9
+      ],
+      [
+       2,
+       9
+      ],
+      {
+       "do": "elixer",
+       "min": 4,
+       "move": "earthquake"
+      },
+      [
+       4,
+       9
+      ],
+      {
+       "do": "talk",
+       "dir": "Down"
+      },
+      {
+       "do": "fightKoga"
+      },
+      {
+       "do": "split"
+      },
+      [
+       1,
+       9
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       3
+      ],
+      [
+       1,
+       3
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       9,
+       1
+      ],
+      [
+       9,
+       16
+      ],
+      [
+       5,
+       16
+      ],
+      [
+       5,
+       18
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "SILPH_CO_7F",
+    "SILPH_CO_3F",
+    "SILPH_CO_ELEVATOR",
+    "SILPH_CO_9F",
+    "SILPH_CO_10F",
+    "CELADON_CITY",
+    "ROUTE_16",
+    "ROUTE_16_GATE_1F",
+    "ROUTE_17",
+    "ROUTE_18",
+    "ROUTE_18_GATE_1F",
+    "FUCHSIA_CITY",
+    "SAFARI_ZONE_GATE",
+    "SAFARI_ZONE_CENTER",
+    "SAFARI_ZONE_EAST",
+    "SAFARI_ZONE_NORTH",
+    "SAFARI_ZONE_WEST",
+    "SAFARI_ZONE_SECRET_HOUSE",
+    "FUCHSIA_GYM"
+   ]
+  },
+  {
+   "split": 13,
+   "name": "Erika",
+   "steps": [
+    {
+     "map_id": 7,
+     "map": "FUCHSIA_CITY",
+     "title": "To the Warden",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       5,
+       28
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       6,
+       28
+      ],
+      [
+       6,
+       30
+      ],
+      [
+       24,
+       30
+      ],
+      [
+       30,
+       30
+      ],
+      [
+       30,
+       28
+      ],
+      [
+       27,
+       28
+      ],
+      [
+       27,
+       27
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 155,
+     "map": "WARDENS_HOUSE",
+     "title": "HM04 Strength",
+     "actions": [
+      "talk"
+     ],
+     "areas": [],
+     "path": [
+      [
+       4,
+       7
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       2,
+       6
+      ],
+      [
+       2,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 7,
+     "map": "FUCHSIA_CITY",
+     "title": "Fly home",
+     "actions": [
+      "fly"
+     ],
+     "areas": [],
+     "path": [
+      [
+       27,
+       28
+      ],
+      {
+       "do": "fly",
+       "dest": "pallet",
+       "map": 0
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 0,
+     "map": "PALLET_TOWN",
+     "title": "TODO combine RC for Carbos",
+     "actions": [
+      "item",
+      "teach",
+      "item",
+      "bicycle",
+      "dodgeGirl",
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       5,
+       6
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "teach",
+       "chain": true,
+       "move": "surf",
+       "replace": "tail_whip",
+       "poke": "squirtle"
+      },
+      {
+       "do": "item",
+       "item": "rare_candy",
+       "all": true,
+       "chain": true,
+       "poke": "nidoking"
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       3,
+       6
+      ],
+      {
+       "do": "dodgeGirl"
+      },
+      [
+       3,
+       17
+      ],
+      {
+       "do": "skill",
+       "x": 4,
+       "move": "surf",
+       "dir": "Right"
+      },
+      [
+       4,
+       18
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 32,
+     "map": "ROUTE_21",
+     "title": "To Cinnabar",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       4,
+       0
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       3,
+       14
+      ],
+      [
+       3,
+       90
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 8,
+     "map": "CINNABAR_ISLAND",
+     "title": "Enter Cinnabar Mansion",
+     "actions": [],
+     "areas": [
+      "Cinnabar Mansion"
+     ],
+     "path": [
+      [
+       3,
+       0
+      ],
+      [
+       3,
+       4
+      ],
+      [
+       6,
+       4
+      ],
+      [
+       6,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 165,
+     "map": "POKEMON_MANSION_1F",
+     "title": "F1",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       5,
+       27
+      ],
+      [
+       5,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 214,
+     "map": "POKEMON_MANSION_2F",
+     "title": "F2",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       5,
+       11
+      ],
+      [
+       10,
+       11
+      ],
+      [
+       10,
+       5
+      ],
+      [
+       6,
+       5
+      ],
+      [
+       6,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 215,
+     "map": "POKEMON_MANSION_3F",
+     "title": "F3",
+     "actions": [
+      "dialogue"
+     ],
+     "areas": [],
+     "path": [
+      [
+       6,
+       2
+      ],
+      [
+       11,
+       2
+      ],
+      [
+       11,
+       6
+      ],
+      [
+       10,
+       6
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       14,
+       6
+      ],
+      [
+       14,
+       11
+      ],
+      [
+       16,
+       11
+      ],
+      [
+       16,
+       14
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 165,
+     "map": "POKEMON_MANSION_1F",
+     "title": "F1 drop",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       16,
+       14
+      ],
+      [
+       16,
+       16
+      ],
+      [
+       13,
+       16
+      ],
+      [
+       13,
+       20
+      ],
+      [
+       21,
+       20
+      ],
+      [
+       21,
+       23
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 216,
+     "map": "POKEMON_MANSION_B1F",
+     "title": "TODO menu cancel for RC",
+     "actions": [
+      "item",
+      "item",
+      "dialogue",
+      "take",
+      "refTeach",
+      "dialogue",
+      "teach",
+      "refTeach",
+      "refMakeSpace",
+      "item",
+      "take",
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       23,
+       22
+      ],
+      [
+       23,
+       15
+      ],
+      [
+       21,
+       15
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "item",
+       "item": "carbos",
+       "poke": "nidoking"
+      },
+      [
+       17,
+       15
+      ],
+      [
+       17,
+       19
+      ],
+      [
+       18,
+       19
+      ],
+      [
+       18,
+       23
+      ],
+      [
+       17,
+       23
+      ],
+      [
+       17,
+       26
+      ],
+      [
+       18,
+       26
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       19,
+       26
+      ],
+      {
+       "do": "take",
+       "dir": "Up"
+      },
+      {
+       "do": "refTeach",
+       "replace": "bubblebeam",
+       "move": "blizzard"
+      },
+      [
+       14,
+       26
+      ],
+      [
+       14,
+       22
+      ],
+      [
+       12,
+       22
+      ],
+      [
+       12,
+       15
+      ],
+      [
+       24,
+       15
+      ],
+      [
+       24,
+       18
+      ],
+      [
+       26,
+       18
+      ],
+      [
+       26,
+       6
+      ],
+      [
+       24,
+       6
+      ],
+      [
+       24,
+       4
+      ],
+      [
+       20,
+       4
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       24,
+       4
+      ],
+      [
+       24,
+       6
+      ],
+      [
+       12,
+       6
+      ],
+      [
+       12,
+       7
+      ],
+      [
+       4,
+       7
+      ],
+      [
+       4,
+       9
+      ],
+      [
+       5,
+       9
+      ],
+      [
+       5,
+       10
+      ],
+      {
+       "do": "teach",
+       "chain": true,
+       "replace": "tackle",
+       "move": "strength",
+       "poke": "squirtle"
+      },
+      {
+       "do": "refTeach",
+       "replace": "bubblebeam",
+       "move": "blizzard"
+      },
+      {
+       "do": "refMakeSpace"
+      },
+      {
+       "do": "item",
+       "all": true,
+       "item": "rare_candy",
+       "poke": "nidoking"
+      },
+      [
+       5,
+       12
+      ],
+      {
+       "do": "take",
+       "dir": "Down"
+      },
+      [
+       5,
+       12
+      ],
+      {
+       "do": "skill",
+       "map": 216,
+       "move": "dig"
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Celadon once again",
+     "actions": [
+      "refMaybeHeal",
+      "bicycle",
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       41,
+       10
+      ],
+      {
+       "do": "refMaybeHeal",
+       "center": 133,
+       "door": [
+        41,
+        9
+       ],
+       "postMansion": true,
+       "map": 6
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       41,
+       13
+      ],
+      [
+       36,
+       13
+      ],
+      [
+       36,
+       23
+      ],
+      [
+       25,
+       23
+      ],
+      [
+       25,
+       30
+      ],
+      [
+       35,
+       30
+      ],
+      [
+       35,
+       31
+      ],
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut",
+       "dir": "Down"
+      },
+      [
+       35,
+       34
+      ],
+      [
+       5,
+       34
+      ],
+      [
+       5,
+       29
+      ],
+      [
+       12,
+       29
+      ],
+      [
+       12,
+       27
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 134,
+     "map": "CELADON_GYM",
+     "title": "Erika",
+     "actions": [
+      "skill",
+      "talk",
+      "fightErika",
+      "split",
+      "skill"
+     ],
+     "areas": [
+      "Erika's Gym"
+     ],
+     "path": [
+      [
+       4,
+       17
+      ],
+      [
+       4,
+       16
+      ],
+      [
+       1,
+       16
+      ],
+      [
+       1,
+       9
+      ],
+      [
+       0,
+       9
+      ],
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       4
+      ],
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut"
+      },
+      [
+       4,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "fightErika"
+      },
+      {
+       "do": "split"
+      },
+      [
+       5,
+       4
+      ],
+      [
+       5,
+       6
+      ],
+      {
+       "do": "skill",
+       "done": 3405,
+       "move": "cut",
+       "dir": "Down"
+      },
+      [
+       5,
+       18
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "FUCHSIA_CITY",
+    "WARDENS_HOUSE",
+    "PALLET_TOWN",
+    "ROUTE_21",
+    "CINNABAR_ISLAND",
+    "POKEMON_MANSION_1F",
+    "POKEMON_MANSION_2F",
+    "POKEMON_MANSION_3F",
+    "POKEMON_MANSION_B1F",
+    "CELADON_CITY",
+    "CELADON_GYM"
+   ]
+  },
+  {
+   "split": 14,
+   "name": "Blaine",
+   "steps": [
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Fly to Cinnabar",
+     "actions": [
+      "fly"
+     ],
+     "areas": [],
+     "path": [
+      [
+       12,
+       28
+      ],
+      {
+       "do": "fly",
+       "dest": "cinnabar",
+       "map": 8
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 8,
+     "map": "CINNABAR_ISLAND",
+     "title": "Cinnabar",
+     "actions": [
+      "refElixerIf",
+      "potion",
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       11,
+       12
+      ],
+      {
+       "do": "refElixerIf",
+       "moves": {
+        "earthquake": 4,
+        "horn_drill": 4
+       },
+       "chain": true
+      },
+      {
+       "do": "potion",
+       "yolo": 0,
+       "hp": 0,
+       "chain": true
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       18,
+       12
+      ],
+      [
+       18,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 166,
+     "map": "CINNABAR_GYM",
+     "title": "Cinnabar Gym",
+     "actions": [
+      "dialogue",
+      "dialogue",
+      "dialogue",
+      "dialogue",
+      "dialogue",
+      "dialogue",
+      "talk",
+      "refFightX",
+      "split",
+      "skill"
+     ],
+     "areas": [
+      "Blaine's Gym"
+     ],
+     "path": [
+      [
+       16,
+       17
+      ],
+      [
+       16,
+       14
+      ],
+      [
+       18,
+       14
+      ],
+      [
+       18,
+       10
+      ],
+      [
+       15,
+       10
+      ],
+      [
+       15,
+       8
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       16,
+       8
+      ],
+      [
+       16,
+       7
+      ],
+      [
+       18,
+       7
+      ],
+      [
+       18,
+       1
+      ],
+      [
+       12,
+       1
+      ],
+      [
+       12,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      {
+       "do": "dialogue",
+       "decline": true,
+       "dir": "Up"
+      },
+      [
+       12,
+       2
+      ],
+      [
+       12,
+       7
+      ],
+      [
+       10,
+       7
+      ],
+      [
+       10,
+       8
+      ],
+      [
+       9,
+       8
+      ],
+      {
+       "do": "dialogue",
+       "decline": true,
+       "dir": "Up"
+      },
+      [
+       9,
+       11
+      ],
+      [
+       12,
+       11
+      ],
+      [
+       12,
+       13
+      ],
+      [
+       10,
+       13
+      ],
+      [
+       10,
+       14
+      ],
+      [
+       9,
+       14
+      ],
+      {
+       "do": "dialogue",
+       "decline": true,
+       "dir": "Up"
+      },
+      [
+       9,
+       16
+      ],
+      [
+       1,
+       16
+      ],
+      [
+       1,
+       14
+      ],
+      {
+       "do": "dialogue",
+       "dir": "Up"
+      },
+      [
+       2,
+       14
+      ],
+      [
+       2,
+       13
+      ],
+      [
+       4,
+       13
+      ],
+      [
+       4,
+       9
+      ],
+      [
+       1,
+       9
+      ],
+      [
+       1,
+       8
+      ],
+      {
+       "do": "dialogue",
+       "decline": true,
+       "dir": "Up"
+      },
+      [
+       2,
+       8
+      ],
+      [
+       2,
+       7
+      ],
+      [
+       4,
+       7
+      ],
+      [
+       4,
+       5
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       3,
+       4
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "refFightX",
+       "label": "Blaine",
+       "reserve": 5,
+       "move": "horn_drill",
+       "x": "accuracy"
+      },
+      {
+       "do": "split"
+      },
+      {
+       "do": "skill",
+       "map": 166,
+       "move": "dig"
+      }
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CELADON_CITY",
+    "CINNABAR_ISLAND",
+    "CINNABAR_GYM"
+   ]
+  },
+  {
+   "split": 15,
+   "name": "Sabrina",
+   "steps": [
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Celadon too many times",
+     "actions": [
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       41,
+       10
+      ],
+      {
+       "do": "bicycle"
+      },
+      [
+       41,
+       11
+      ],
+      [
+       50,
+       11
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 18,
+     "map": "ROUTE_7",
+     "title": "Exit Celadon",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       0,
+       3
+      ],
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       9
+      ],
+      [
+       10,
+       9
+      ],
+      [
+       10,
+       10
+      ],
+      [
+       12,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 76,
+     "map": "ROUTE_7_GATE",
+     "title": "Saffron gate",
+     "actions": [],
+     "areas": [
+      "Saffron City"
+     ],
+     "path": [
+      [
+       0,
+       4
+      ],
+      [
+       6,
+       4
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 18,
+     "map": "ROUTE_7",
+     "title": "Saffron edge",
+     "actions": [
+      "elixer",
+      "potion",
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       18,
+       10
+      ],
+      {
+       "do": "elixer",
+       "chain": true,
+       "min": 4,
+       "move": "earthquake"
+      },
+      {
+       "do": "potion",
+       "yolo": 0,
+       "hp": 0,
+       "chain": true
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       20,
+       10
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 10,
+     "map": "SAFFRON_CITY",
+     "title": "Saffron again",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       0,
+       18
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       3,
+       6
+      ],
+      [
+       31,
+       6
+      ],
+      [
+       31,
+       4
+      ],
+      [
+       34,
+       4
+      ],
+      [
+       34,
+       3
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 178,
+     "map": "SAFFRON_GYM",
+     "title": "Sabrina",
+     "actions": [
+      "waitToFight",
+      "split",
+      "refSabrinaNoElixer",
+      "skill"
+     ],
+     "areas": [
+      "Sabrina's Gym"
+     ],
+     "path": [
+      [
+       8,
+       17
+      ],
+      [
+       8,
+       16
+      ],
+      [
+       11,
+       16
+      ],
+      [
+       11,
+       15
+      ],
+      [
+       16,
+       17
+      ],
+      [
+       16,
+       15
+      ],
+      [
+       15,
+       15
+      ],
+      [
+       18,
+       3
+      ],
+      [
+       18,
+       5
+      ],
+      [
+       15,
+       5
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       11,
+       11
+      ],
+      [
+       11,
+       8
+      ],
+      [
+       10,
+       8
+      ],
+      {
+       "do": "waitToFight",
+       "dir": "Left"
+      },
+      {
+       "do": "split"
+      },
+      [
+       11,
+       8
+      ],
+      [
+       11,
+       11
+      ],
+      {
+       "do": "refSabrinaNoElixer"
+      },
+      {
+       "do": "skill",
+       "map": 178,
+       "move": "dig"
+      }
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CELADON_CITY",
+    "ROUTE_7",
+    "ROUTE_7_GATE",
+    "SAFFRON_CITY",
+    "SAFFRON_GYM"
+   ]
+  },
+  {
+   "split": 16,
+   "name": "Giovanni",
+   "steps": [
+    {
+     "map_id": 6,
+     "map": "CELADON_CITY",
+     "title": "Celadon",
+     "actions": [
+      "fly"
+     ],
+     "areas": [],
+     "path": [
+      [
+       41,
+       10
+      ],
+      {
+       "do": "fly",
+       "dest": "viridian",
+       "map": 1
+      }
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": "Viridian again",
+     "actions": [
+      "refLateFR",
+      "potion",
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       23,
+       26
+      ],
+      {
+       "do": "refLateFR"
+      },
+      {
+       "do": "potion",
+       "forced": "potion",
+       "hp": 80,
+       "chain": true
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       19,
+       26
+      ],
+      [
+       19,
+       4
+      ],
+      [
+       27,
+       4
+      ],
+      [
+       27,
+       3
+      ],
+      [
+       34,
+       3
+      ],
+      [
+       34,
+       8
+      ],
+      [
+       32,
+       8
+      ],
+      [
+       32,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 45,
+     "map": "VIRIDIAN_GYM",
+     "title": "Giovanni Gym",
+     "actions": [
+      "fightGiovanniMachoke"
+     ],
+     "areas": [
+      "Giovanni's Gym",
+      "Machoke"
+     ],
+     "path": [
+      [
+       16,
+       17
+      ],
+      [
+       16,
+       16
+      ],
+      [
+       14,
+       16
+      ],
+      [
+       14,
+       9
+      ],
+      [
+       13,
+       9
+      ],
+      [
+       13,
+       7
+      ],
+      [
+       15,
+       7
+      ],
+      [
+       15,
+       4
+      ],
+      [
+       12,
+       4
+      ],
+      [
+       12,
+       5
+      ],
+      [
+       10,
+       5
+      ],
+      [
+       10,
+       4
+      ],
+      {
+       "do": "fightGiovanniMachoke"
+      },
+      [
+       10,
+       5
+      ],
+      [
+       13,
+       5
+      ],
+      [
+       13,
+       4
+      ],
+      [
+       15,
+       4
+      ],
+      [
+       15,
+       7
+      ],
+      [
+       13,
+       7
+      ],
+      [
+       13,
+       11
+      ],
+      [
+       14,
+       11
+      ],
+      [
+       14,
+       16
+      ],
+      [
+       16,
+       16
+      ],
+      [
+       16,
+       18
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": "Reset Gym",
+     "actions": [
+      "refViridianElixer"
+     ],
+     "areas": [
+      "Giovanni's Gym"
+     ],
+     "path": [
+      [
+       32,
+       8
+      ],
+      {
+       "do": "refViridianElixer"
+      },
+      [
+       32,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 45,
+     "map": "VIRIDIAN_GYM",
+     "title": "Giovanni",
+     "actions": [
+      "checkGiovanni",
+      "talk",
+      "fightGiovanni",
+      "split"
+     ],
+     "areas": [],
+     "path": [
+      [
+       16,
+       17
+      ],
+      [
+       16,
+       16
+      ],
+      [
+       14,
+       16
+      ],
+      [
+       14,
+       9
+      ],
+      [
+       13,
+       9
+      ],
+      [
+       13,
+       7
+      ],
+      [
+       15,
+       7
+      ],
+      [
+       15,
+       4
+      ],
+      [
+       12,
+       4
+      ],
+      [
+       12,
+       5
+      ],
+      [
+       10,
+       5
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       7,
+       2
+      ],
+      [
+       7,
+       4
+      ],
+      [
+       2,
+       4
+      ],
+      {
+       "do": "checkGiovanni"
+      },
+      [
+       2,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Up"
+      },
+      {
+       "do": "fightGiovanni"
+      },
+      {
+       "do": "split"
+      },
+      [
+       2,
+       4
+      ],
+      [
+       7,
+       4
+      ],
+      [
+       7,
+       2
+      ],
+      [
+       10,
+       2
+      ],
+      [
+       10,
+       5
+      ],
+      [
+       12,
+       5
+      ],
+      [
+       12,
+       4
+      ],
+      [
+       15,
+       4
+      ],
+      [
+       15,
+       7
+      ],
+      [
+       13,
+       7
+      ],
+      [
+       13,
+       11
+      ],
+      [
+       14,
+       11
+      ],
+      [
+       14,
+       16
+      ],
+      [
+       16,
+       16
+      ],
+      [
+       16,
+       18
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CELADON_CITY",
+    "VIRIDIAN_CITY",
+    "VIRIDIAN_GYM"
+   ]
+  },
+  {
+   "split": 17,
+   "name": "Lorelei",
+   "steps": [
+    {
+     "map_id": 1,
+     "map": "VIRIDIAN_CITY",
+     "title": "Leave Viridian",
+     "actions": [
+      "potion",
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       32,
+       8
+      ],
+      {
+       "do": "potion",
+       "hp": 130,
+       "chain": true
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       32,
+       12
+      ],
+      [
+       17,
+       12
+      ],
+      [
+       17,
+       16
+      ],
+      [
+       16,
+       16
+      ],
+      [
+       16,
+       17
+      ],
+      [
+       -1,
+       17
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 33,
+     "map": "ROUTE_22",
+     "title": "To Pokemon League",
+     "actions": [
+      "viridianRival"
+     ],
+     "areas": [
+      "Viridian Rival"
+     ],
+     "path": [
+      [
+       39,
+       9
+      ],
+      [
+       35,
+       9
+      ],
+      [
+       35,
+       12
+      ],
+      [
+       31,
+       12
+      ],
+      [
+       31,
+       5
+      ],
+      [
+       29,
+       5
+      ],
+      {
+       "do": "viridianRival"
+      },
+      [
+       16,
+       5
+      ],
+      [
+       16,
+       12
+      ],
+      [
+       5,
+       12
+      ],
+      [
+       5,
+       10
+      ],
+      [
+       11,
+       10
+      ],
+      [
+       11,
+       6
+      ],
+      [
+       8,
+       6
+      ],
+      [
+       8,
+       5
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 193,
+     "map": "ROUTE_22_GATE",
+     "title": "Pokemon League 1",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       4,
+       7
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 34,
+     "map": "ROUTE_23",
+     "title": null,
+     "actions": [
+      "ether",
+      "tossInVictoryRoad",
+      "bicycle",
+      "skill",
+      "grabMaxEther",
+      "item",
+      "bicycle"
+     ],
+     "areas": [],
+     "path": [
+      [
+       7,
+       139
+      ],
+      {
+       "do": "ether",
+       "chain": true,
+       "max": true
+      },
+      {
+       "do": "tossInVictoryRoad"
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       7,
+       132
+      ],
+      [
+       14,
+       132
+      ],
+      [
+       14,
+       124
+      ],
+      [
+       9,
+       124
+      ],
+      [
+       9,
+       116
+      ],
+      [
+       10,
+       116
+      ],
+      [
+       10,
+       104
+      ],
+      {
+       "do": "skill",
+       "y": 103,
+       "move": "surf"
+      },
+      [
+       10,
+       92
+      ],
+      [
+       7,
+       92
+      ],
+      [
+       7,
+       90
+      ],
+      {
+       "do": "grabMaxEther"
+      },
+      [
+       7,
+       72
+      ],
+      [
+       8,
+       72
+      ],
+      [
+       8,
+       71
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       8,
+       66
+      ],
+      [
+       10,
+       66
+      ],
+      [
+       10,
+       57
+      ],
+      [
+       12,
+       57
+      ],
+      [
+       12,
+       48
+      ],
+      [
+       6,
+       48
+      ],
+      [
+       6,
+       32
+      ],
+      [
+       4,
+       32
+      ],
+      [
+       4,
+       31
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 108,
+     "map": "VICTORY_ROAD_1F",
+     "title": "Victory Road",
+     "actions": [
+      "tweetVictoryRoad",
+      "skill",
+      "push",
+      "push"
+     ],
+     "areas": [
+      "Victory Road"
+     ],
+     "path": [
+      [
+       8,
+       17
+      ],
+      {
+       "do": "tweetVictoryRoad"
+      },
+      [
+       8,
+       16
+      ],
+      [
+       4,
+       16
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       14
+      ],
+      {
+       "do": "skill",
+       "move": "strength"
+      },
+      [
+       5,
+       15
+      ],
+      [
+       4,
+       15
+      ],
+      [
+       4,
+       16
+      ],
+      [
+       7,
+       16
+      ],
+      {
+       "do": "push",
+       "y": 596,
+       "x": 597,
+       "dir": "Right"
+      },
+      [
+       7,
+       17
+      ],
+      [
+       9,
+       17
+      ],
+      [
+       9,
+       15
+      ],
+      [
+       8,
+       15
+      ],
+      [
+       8,
+       14
+      ],
+      [
+       15,
+       14
+      ],
+      [
+       15,
+       15
+      ],
+      [
+       16,
+       15
+      ],
+      [
+       16,
+       14
+      ],
+      {
+       "do": "push",
+       "y": 596,
+       "x": 597,
+       "dir": "Up"
+      },
+      [
+       14,
+       14
+      ],
+      [
+       14,
+       12
+      ],
+      [
+       16,
+       12
+      ],
+      [
+       16,
+       11
+      ],
+      [
+       17,
+       11
+      ],
+      [
+       17,
+       12
+      ],
+      [
+       14,
+       12
+      ],
+      [
+       14,
+       14
+      ],
+      [
+       8,
+       14
+      ],
+      [
+       8,
+       16
+      ],
+      [
+       5,
+       16
+      ],
+      [
+       5,
+       12
+      ],
+      [
+       11,
+       12
+      ],
+      [
+       11,
+       6
+      ],
+      [
+       7,
+       6
+      ],
+      [
+       7,
+       8
+      ],
+      [
+       3,
+       8
+      ],
+      [
+       3,
+       5
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 194,
+     "map": "VICTORY_ROAD_2F",
+     "title": "F2",
+     "actions": [
+      "item",
+      "skill",
+      "push"
+     ],
+     "areas": [],
+     "path": [
+      [
+       0,
+       8
+      ],
+      [
+       0,
+       9
+      ],
+      [
+       3,
+       9
+      ],
+      [
+       3,
+       13
+      ],
+      [
+       5,
+       13
+      ],
+      [
+       5,
+       14
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "skill",
+       "move": "strength"
+      },
+      [
+       4,
+       14
+      ],
+      [
+       4,
+       13
+      ],
+      [
+       3,
+       13
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       4,
+       15
+      ],
+      [
+       4,
+       16
+      ],
+      [
+       3,
+       16
+      ],
+      {
+       "do": "push",
+       "y": 692,
+       "x": 693,
+       "dir": "Left"
+      },
+      [
+       3,
+       11
+      ],
+      [
+       5,
+       11
+      ],
+      [
+       5,
+       8
+      ],
+      [
+       14,
+       8
+      ],
+      [
+       14,
+       14
+      ],
+      [
+       21,
+       14
+      ],
+      [
+       21,
+       16
+      ],
+      [
+       28,
+       16
+      ],
+      [
+       28,
+       11
+      ],
+      [
+       23,
+       11
+      ],
+      [
+       23,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 198,
+     "map": "VICTORY_ROAD_3F",
+     "title": "F3",
+     "actions": [
+      "skill"
+     ],
+     "areas": [],
+     "path": [
+      [
+       23,
+       7
+      ],
+      [
+       23,
+       6
+      ],
+      [
+       22,
+       6
+      ],
+      [
+       22,
+       4
+      ],
+      {
+       "do": "skill",
+       "move": "strength"
+      },
+      [
+       22,
+       2
+      ],
+      [
+       23,
+       2
+      ],
+      [
+       23,
+       1
+      ],
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       0
+      ],
+      [
+       6,
+       0
+      ],
+      [
+       6,
+       1
+      ],
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       2
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       4
+      ],
+      [
+       1,
+       4
+      ],
+      [
+       1,
+       5
+      ],
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       4
+      ],
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       2
+      ],
+      [
+       7,
+       2
+      ],
+      [
+       7,
+       1
+      ],
+      [
+       20,
+       1
+      ],
+      [
+       20,
+       6
+      ],
+      [
+       17,
+       6
+      ],
+      [
+       17,
+       4
+      ],
+      [
+       9,
+       4
+      ],
+      [
+       9,
+       10
+      ],
+      [
+       5,
+       10
+      ],
+      [
+       5,
+       8
+      ],
+      [
+       1,
+       8
+      ],
+      [
+       1,
+       15
+      ],
+      [
+       11,
+       15
+      ],
+      [
+       11,
+       16
+      ],
+      [
+       20,
+       16
+      ],
+      [
+       20,
+       15
+      ],
+      [
+       23,
+       15
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 194,
+     "map": "VICTORY_ROAD_2F",
+     "title": "F2",
+     "actions": [
+      "item",
+      "potionBeforeLorelei",
+      "skill",
+      "bicycle",
+      "push"
+     ],
+     "areas": [],
+     "path": [
+      [
+       22,
+       16
+      ],
+      {
+       "do": "item",
+       "item": "super_repel",
+       "chain": true
+      },
+      {
+       "do": "potionBeforeLorelei",
+       "chain": true
+      },
+      {
+       "do": "skill",
+       "move": "strength"
+      },
+      {
+       "do": "bicycle"
+      },
+      [
+       22,
+       17
+      ],
+      [
+       24,
+       17
+      ],
+      [
+       24,
+       16
+      ],
+      [
+       11,
+       16
+      ],
+      {
+       "do": "push",
+       "y": 724,
+       "x": 725,
+       "dir": "Left"
+      },
+      [
+       21,
+       16
+      ],
+      [
+       21,
+       14
+      ],
+      [
+       25,
+       14
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 198,
+     "map": "VICTORY_ROAD_3F",
+     "title": "F3",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       27,
+       15
+      ],
+      [
+       27,
+       8
+      ],
+      [
+       26,
+       8
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 194,
+     "map": "VICTORY_ROAD_2F",
+     "title": "F2 Exit",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       27,
+       7
+      ],
+      [
+       30,
+       7
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 34,
+     "map": "ROUTE_23",
+     "title": "Victory end",
+     "actions": [],
+     "areas": [],
+     "path": [
+      [
+       14,
+       32
+      ],
+      [
+       18,
+       32
+      ],
+      [
+       18,
+       20
+      ],
+      [
+       14,
+       20
+      ],
+      [
+       14,
+       10
+      ],
+      [
+       13,
+       10
+      ],
+      [
+       13,
+       6
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       10,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 9,
+     "map": "INDIGO_PLATEAU",
+     "title": "Elite Four entrance",
+     "actions": [],
+     "areas": [
+      "Elite Four"
+     ],
+     "path": [
+      [
+       10,
+       17
+      ],
+      [
+       10,
+       5
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 174,
+     "map": "INDIGO_PLATEAU_LOBBY",
+     "title": "Last Center",
+     "actions": [
+      "depositPokemon",
+      "refCenterSkip"
+     ],
+     "areas": [],
+     "path": [
+      [
+       7,
+       11
+      ],
+      [
+       15,
+       9
+      ],
+      [
+       15,
+       8
+      ],
+      {
+       "do": "depositPokemon"
+      },
+      [
+       7,
+       8
+      ],
+      [
+       7,
+       7
+      ],
+      {
+       "do": "refCenterSkip"
+      },
+      [
+       4,
+       7
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       2
+      ],
+      [
+       8,
+       2
+      ],
+      [
+       8,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 245,
+     "map": "LORELEIS_ROOM",
+     "title": "Lorelei",
+     "actions": [
+      "changeSpeed",
+      "refBirdToSlot1",
+      "talk",
+      "lorelei",
+      "split"
+     ],
+     "areas": [
+      "Lorelei"
+     ],
+     "path": [
+      {
+       "do": "changeSpeed",
+       "extra": "Enjoy the show"
+      },
+      [
+       4,
+       5
+      ],
+      {
+       "do": "refBirdToSlot1"
+      },
+      [
+       4,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      {
+       "do": "lorelei"
+      },
+      {
+       "do": "split"
+      },
+      [
+       4,
+       0
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "VIRIDIAN_CITY",
+    "ROUTE_22",
+    "ROUTE_22_GATE",
+    "ROUTE_23",
+    "VICTORY_ROAD_1F",
+    "VICTORY_ROAD_2F",
+    "VICTORY_ROAD_3F",
+    "INDIGO_PLATEAU",
+    "INDIGO_PLATEAU_LOBBY",
+    "LORELEIS_ROOM"
+   ]
+  },
+  {
+   "split": 18,
+   "name": "Bruno",
+   "steps": [
+    {
+     "map_id": 246,
+     "map": "BRUNOS_ROOM",
+     "title": "Bruno",
+     "actions": [
+      "refRedEnd",
+      "refRestorePP",
+      "talk",
+      "bruno",
+      "split"
+     ],
+     "areas": [
+      "Bruno"
+     ],
+     "path": [
+      [
+       4,
+       5
+      ],
+      {
+       "do": "refRedEnd"
+      },
+      {
+       "do": "refRestorePP",
+       "moves": [
+        [
+         "horn_drill",
+         5
+        ]
+       ],
+       "prefer": [
+        "max_ether",
+        "ether",
+        "elixer"
+       ]
+      },
+      [
+       4,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      {
+       "do": "bruno"
+      },
+      {
+       "do": "split"
+      },
+      [
+       4,
+       0
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "BRUNOS_ROOM"
+   ]
+  },
+  {
+   "split": 19,
+   "name": "Agatha",
+   "steps": [
+    {
+     "map_id": 247,
+     "map": "AGATHAS_ROOM",
+     "title": "Agatha",
+     "actions": [
+      "refRedEnd",
+      "refAgathaSuper",
+      "refRecoveryPotion",
+      "talk",
+      "agatha",
+      "split"
+     ],
+     "areas": [
+      "Agatha"
+     ],
+     "path": [
+      [
+       4,
+       5
+      ],
+      {
+       "do": "refRedEnd",
+       "agatha": true
+      },
+      {
+       "do": "refAgathaSuper"
+      },
+      {
+       "do": "refRecoveryPotion",
+       "hp": 113,
+       "why": "Agatha inherited survival threshold"
+      },
+      [
+       4,
+       2
+      ],
+      {
+       "do": "talk",
+       "dir": "Right"
+      },
+      {
+       "do": "agatha"
+      },
+      {
+       "do": "split"
+      },
+      [
+       4,
+       1
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "AGATHAS_ROOM"
+   ]
+  },
+  {
+   "split": 20,
+   "name": "Lance",
+   "steps": [
+    {
+     "map_id": 113,
+     "map": "LANCES_ROOM",
+     "title": "Lance",
+     "actions": [
+      "refRestorePP",
+      "refRestoreBlizzard",
+      "prepareForLance",
+      "refCloseMenu",
+      "lance",
+      "split",
+      "prepareForBlue"
+     ],
+     "areas": [
+      "Lance"
+     ],
+     "path": [
+      [
+       6,
+       11
+      ],
+      {
+       "do": "refRestorePP",
+       "chain": true,
+       "moves": [
+        [
+         "blizzard",
+         "max"
+        ],
+        [
+         "horn_drill",
+         "max"
+        ]
+       ],
+       "prefer": [
+        "elixer",
+        "max_ether",
+        "ether"
+       ]
+      },
+      {
+       "do": "refRestoreBlizzard",
+       "chain": true
+      },
+      {
+       "do": "prepareForLance"
+      },
+      {
+       "do": "refCloseMenu"
+      },
+      [
+       6,
+       2
+      ],
+      {
+       "do": "lance"
+      },
+      {
+       "do": "split"
+      },
+      [
+       5,
+       2
+      ],
+      [
+       5,
+       1
+      ],
+      {
+       "do": "prepareForBlue"
+      },
+      [
+       5,
+       -1
+      ]
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "LANCES_ROOM"
+   ]
+  },
+  {
+   "split": 21,
+   "name": "Champion",
+   "steps": [
+    {
+     "map_id": 120,
+     "map": "CHAMPIONS_ROOM",
+     "title": "Blue",
+     "actions": [
+      "blue"
+     ],
+     "areas": [
+      "Blue"
+     ],
+     "path": [
+      [
+       4,
+       3
+      ],
+      {
+       "do": "blue"
+      },
+      [
+       3,
+       0
+      ]
+     ],
+     "from_base_table": true
+    },
+    {
+     "map_id": 118,
+     "map": "HALL_OF_FAME",
+     "title": "Champion",
+     "actions": [
+      "champion"
+     ],
+     "areas": [
+      "Champion"
+     ],
+     "path": [
+      [
+       4,
+       2
+      ],
+      {
+       "do": "champion"
+      }
+     ],
+     "from_base_table": true
+    }
+   ],
+   "maps_in_order": [
+    "CHAMPIONS_ROOM",
+    "HALL_OF_FAME"
+   ]
+  }
+ ]
+}

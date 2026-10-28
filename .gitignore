@@ -1,0 +1,23 @@
+# Game files: bring your own ROM, never commit it or anything made from it
+*.gb
+*.gbc
+*.sav
+*.ram
+*.state
+*.state.*
+states/
+screen*.png
+
+# Runs, local data and settings
+runs/
+fixtures/
+reference/
+.trash/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

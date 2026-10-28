@@ -1,0 +1,1518 @@
+{
+  "ROUTE_3": {
+    "source": "data/maps/objects/Route3.asm",
+    "script": "scripts/Route3.asm",
+    "header": "data/maps/headers/Route3.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 57,
+        "y": 11,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_ROUTE3_SUPER_NERD"
+      },
+      {
+        "id": 2,
+        "x": 10,
+        "y": 6,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE3_YOUNGSTER1",
+        "trainer": "BUG_CATCHER:4",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_0",
+        "sight": 2
+      },
+      {
+        "id": 3,
+        "x": 14,
+        "y": 4,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_ROUTE3_YOUNGSTER2",
+        "trainer": "YOUNGSTER:1",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_1",
+        "sight": 3
+      },
+      {
+        "id": 4,
+        "x": 16,
+        "y": 9,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE3_COOLTRAINER_F1",
+        "trainer": "LASS:1",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_2",
+        "sight": 2
+      },
+      {
+        "id": 5,
+        "x": 19,
+        "y": 5,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_ROUTE3_YOUNGSTER3",
+        "trainer": "BUG_CATCHER:5",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_3",
+        "sight": 1
+      },
+      {
+        "id": 6,
+        "x": 23,
+        "y": 4,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE3_COOLTRAINER_F2",
+        "trainer": "LASS:2",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_4",
+        "sight": 4
+      },
+      {
+        "id": 7,
+        "x": 22,
+        "y": 9,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE3_YOUNGSTER4",
+        "trainer": "YOUNGSTER:2",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_5",
+        "sight": 3
+      },
+      {
+        "id": 8,
+        "x": 24,
+        "y": 6,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE3_YOUNGSTER5",
+        "trainer": "BUG_CATCHER:6",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_6",
+        "sight": 3
+      },
+      {
+        "id": 9,
+        "x": 33,
+        "y": 10,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_ROUTE3_COOLTRAINER_F3",
+        "trainer": "LASS:3",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_7",
+        "sight": 2
+      }
+    ],
+    "warps": []
+  },
+  "ROUTE_4": {
+    "source": "data/maps/objects/Route4.asm",
+    "script": "scripts/Route4.asm",
+    "header": "data/maps/headers/Route4.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 9,
+        "y": 8,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "WALK",
+        "facing": "ANY_DIR",
+        "text": "TEXT_ROUTE4_COOLTRAINER_F1"
+      },
+      {
+        "id": 2,
+        "x": 63,
+        "y": 3,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE4_COOLTRAINER_F2",
+        "trainer": "LASS:4",
+        "event": "EVENT_BEAT_ROUTE_4_TRAINER_0",
+        "sight": 3
+      },
+      {
+        "id": 3,
+        "x": 57,
+        "y": 3,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_ROUTE4_TM_WHIRLWIND",
+        "item": "TM_WHIRLWIND"
+      }
+    ],
+    "warps": [
+      {
+        "x": 11,
+        "y": 5,
+        "target": "MT_MOON_POKECENTER",
+        "warp": 1
+      },
+      {
+        "x": 18,
+        "y": 5,
+        "target": "MT_MOON_1F",
+        "warp": 1
+      },
+      {
+        "x": 24,
+        "y": 5,
+        "target": "MT_MOON_B1F",
+        "warp": 8
+      }
+    ]
+  },
+  "MT_MOON_1F": {
+    "source": "data/maps/objects/MtMoon1F.asm",
+    "script": "scripts/MtMoon1F.asm",
+    "header": "data/maps/headers/MtMoon1F.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 5,
+        "y": 6,
+        "sprite": "SPRITE_HIKER",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOON1F_HIKER",
+        "trainer": "HIKER:1",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_0",
+        "sight": 2
+      },
+      {
+        "id": 2,
+        "x": 12,
+        "y": 16,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_MTMOON1F_YOUNGSTER1",
+        "trainer": "YOUNGSTER:3",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_1",
+        "sight": 3
+      },
+      {
+        "id": 3,
+        "x": 30,
+        "y": 4,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOON1F_COOLTRAINER_F1",
+        "trainer": "LASS:5",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_2",
+        "sight": 3
+      },
+      {
+        "id": 4,
+        "x": 24,
+        "y": 31,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_MTMOON1F_SUPER_NERD",
+        "trainer": "SUPER_NERD:1",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_3",
+        "sight": 3
+      },
+      {
+        "id": 5,
+        "x": 16,
+        "y": 23,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOON1F_COOLTRAINER_F2",
+        "trainer": "LASS:6",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_4",
+        "sight": 3
+      },
+      {
+        "id": 6,
+        "x": 7,
+        "y": 22,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOON1F_YOUNGSTER2",
+        "trainer": "BUG_CATCHER:7",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_5",
+        "sight": 3
+      },
+      {
+        "id": 7,
+        "x": 30,
+        "y": 27,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_MTMOON1F_YOUNGSTER3",
+        "trainer": "BUG_CATCHER:8",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_6",
+        "sight": 3
+      },
+      {
+        "id": 8,
+        "x": 2,
+        "y": 20,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOON1F_POTION1",
+        "item": "POTION"
+      },
+      {
+        "id": 9,
+        "x": 2,
+        "y": 2,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOON1F_MOON_STONE",
+        "item": "MOON_STONE"
+      },
+      {
+        "id": 10,
+        "x": 35,
+        "y": 31,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOON1F_RARE_CANDY",
+        "item": "RARE_CANDY"
+      },
+      {
+        "id": 11,
+        "x": 36,
+        "y": 23,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOON1F_ESCAPE_ROPE",
+        "item": "ESCAPE_ROPE"
+      },
+      {
+        "id": 12,
+        "x": 20,
+        "y": 33,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOON1F_POTION2",
+        "item": "POTION"
+      },
+      {
+        "id": 13,
+        "x": 5,
+        "y": 32,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOON1F_TM_WATER_GUN",
+        "item": "TM_WATER_GUN"
+      }
+    ],
+    "warps": [
+      {
+        "x": 14,
+        "y": 35,
+        "target": "LAST_MAP",
+        "warp": 2
+      },
+      {
+        "x": 15,
+        "y": 35,
+        "target": "LAST_MAP",
+        "warp": 2
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "target": "MT_MOON_B1F",
+        "warp": 1
+      },
+      {
+        "x": 17,
+        "y": 11,
+        "target": "MT_MOON_B1F",
+        "warp": 3
+      },
+      {
+        "x": 25,
+        "y": 15,
+        "target": "MT_MOON_B1F",
+        "warp": 4
+      }
+    ]
+  },
+  "MT_MOON_B1F": {
+    "source": "data/maps/objects/MtMoonB1F.asm",
+    "script": "scripts/MtMoonB1F.asm",
+    "header": "data/maps/headers/MtMoonB1F.asm",
+    "objects": [],
+    "warps": [
+      {
+        "x": 5,
+        "y": 5,
+        "target": "MT_MOON_1F",
+        "warp": 3
+      },
+      {
+        "x": 17,
+        "y": 11,
+        "target": "MT_MOON_B2F",
+        "warp": 1
+      },
+      {
+        "x": 25,
+        "y": 9,
+        "target": "MT_MOON_1F",
+        "warp": 4
+      },
+      {
+        "x": 25,
+        "y": 15,
+        "target": "MT_MOON_1F",
+        "warp": 5
+      },
+      {
+        "x": 21,
+        "y": 17,
+        "target": "MT_MOON_B2F",
+        "warp": 2
+      },
+      {
+        "x": 13,
+        "y": 27,
+        "target": "MT_MOON_B2F",
+        "warp": 3
+      },
+      {
+        "x": 23,
+        "y": 3,
+        "target": "MT_MOON_B2F",
+        "warp": 4
+      },
+      {
+        "x": 27,
+        "y": 3,
+        "target": "LAST_MAP",
+        "warp": 3
+      }
+    ]
+  },
+  "MT_MOON_B2F": {
+    "source": "data/maps/objects/MtMoonB2F.asm",
+    "script": "scripts/MtMoonB2F.asm",
+    "header": "data/maps/headers/MtMoonB2F.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 12,
+        "y": 8,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_MTMOONB2F_SUPER_NERD",
+        "trainer": "SUPER_NERD:2"
+      },
+      {
+        "id": 2,
+        "x": 11,
+        "y": 16,
+        "sprite": "SPRITE_ROCKET",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOONB2F_ROCKET1",
+        "trainer": "ROCKET:1",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_0",
+        "sight": 4
+      },
+      {
+        "id": 3,
+        "x": 15,
+        "y": 22,
+        "sprite": "SPRITE_ROCKET",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOONB2F_ROCKET2",
+        "trainer": "ROCKET:2",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_1",
+        "sight": 4
+      },
+      {
+        "id": 4,
+        "x": 29,
+        "y": 11,
+        "sprite": "SPRITE_ROCKET",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_MTMOONB2F_ROCKET3",
+        "trainer": "ROCKET:3",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_2",
+        "sight": 4
+      },
+      {
+        "id": 5,
+        "x": 29,
+        "y": 17,
+        "sprite": "SPRITE_ROCKET",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_MTMOONB2F_ROCKET4",
+        "trainer": "ROCKET:4",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_3",
+        "sight": 4
+      },
+      {
+        "id": 6,
+        "x": 12,
+        "y": 6,
+        "sprite": "SPRITE_FOSSIL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOONB2F_DOME_FOSSIL"
+      },
+      {
+        "id": 7,
+        "x": 13,
+        "y": 6,
+        "sprite": "SPRITE_FOSSIL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOONB2F_HELIX_FOSSIL"
+      },
+      {
+        "id": 8,
+        "x": 25,
+        "y": 21,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOONB2F_HP_UP",
+        "item": "HP_UP"
+      },
+      {
+        "id": 9,
+        "x": 29,
+        "y": 5,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOONB2F_TM_MEGA_PUNCH",
+        "item": "TM_MEGA_PUNCH"
+      }
+    ],
+    "warps": [
+      {
+        "x": 25,
+        "y": 9,
+        "target": "MT_MOON_B1F",
+        "warp": 2
+      },
+      {
+        "x": 21,
+        "y": 17,
+        "target": "MT_MOON_B1F",
+        "warp": 5
+      },
+      {
+        "x": 15,
+        "y": 27,
+        "target": "MT_MOON_B1F",
+        "warp": 6
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "target": "MT_MOON_B1F",
+        "warp": 7
+      }
+    ]
+  },
+  "CERULEAN_CITY": {
+    "source": "data/maps/objects/CeruleanCity.asm",
+    "script": "scripts/CeruleanCity.asm",
+    "header": "data/maps/headers/CeruleanCity.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 20,
+        "y": 2,
+        "sprite": "SPRITE_BLUE",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANCITY_RIVAL"
+      },
+      {
+        "id": 2,
+        "x": 30,
+        "y": 8,
+        "sprite": "SPRITE_ROCKET",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_CERULEANCITY_ROCKET",
+        "trainer": "ROCKET:5"
+      },
+      {
+        "id": 3,
+        "x": 31,
+        "y": 20,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANCITY_COOLTRAINER_M"
+      },
+      {
+        "id": 4,
+        "x": 15,
+        "y": 18,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "WALK",
+        "facing": "UP_DOWN",
+        "text": "TEXT_CERULEANCITY_SUPER_NERD1"
+      },
+      {
+        "id": 5,
+        "x": 9,
+        "y": 21,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "WALK",
+        "facing": "LEFT_RIGHT",
+        "text": "TEXT_CERULEANCITY_SUPER_NERD2"
+      },
+      {
+        "id": 6,
+        "x": 28,
+        "y": 12,
+        "sprite": "SPRITE_GUARD",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANCITY_GUARD1"
+      },
+      {
+        "id": 7,
+        "x": 29,
+        "y": 26,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_CERULEANCITY_COOLTRAINER_F1"
+      },
+      {
+        "id": 8,
+        "x": 28,
+        "y": 26,
+        "sprite": "SPRITE_MONSTER",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANCITY_SLOWBRO"
+      },
+      {
+        "id": 9,
+        "x": 9,
+        "y": 27,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "WALK",
+        "facing": "LEFT_RIGHT",
+        "text": "TEXT_CERULEANCITY_COOLTRAINER_F2"
+      },
+      {
+        "id": 10,
+        "x": 4,
+        "y": 12,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANCITY_SUPER_NERD3"
+      },
+      {
+        "id": 11,
+        "x": 27,
+        "y": 12,
+        "sprite": "SPRITE_GUARD",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANCITY_GUARD2"
+      }
+    ],
+    "warps": [
+      {
+        "x": 27,
+        "y": 11,
+        "target": "CERULEAN_TRASHED_HOUSE",
+        "warp": 1
+      },
+      {
+        "x": 13,
+        "y": 15,
+        "target": "CERULEAN_TRADE_HOUSE",
+        "warp": 1
+      },
+      {
+        "x": 19,
+        "y": 17,
+        "target": "CERULEAN_POKECENTER",
+        "warp": 1
+      },
+      {
+        "x": 30,
+        "y": 19,
+        "target": "CERULEAN_GYM",
+        "warp": 1
+      },
+      {
+        "x": 13,
+        "y": 25,
+        "target": "BIKE_SHOP",
+        "warp": 1
+      },
+      {
+        "x": 25,
+        "y": 25,
+        "target": "CERULEAN_MART",
+        "warp": 1
+      },
+      {
+        "x": 4,
+        "y": 11,
+        "target": "CERULEAN_CAVE_1F",
+        "warp": 1
+      },
+      {
+        "x": 27,
+        "y": 9,
+        "target": "CERULEAN_TRASHED_HOUSE",
+        "warp": 3
+      },
+      {
+        "x": 9,
+        "y": 11,
+        "target": "CERULEAN_BADGE_HOUSE",
+        "warp": 2
+      },
+      {
+        "x": 9,
+        "y": 9,
+        "target": "CERULEAN_BADGE_HOUSE",
+        "warp": 1
+      }
+    ]
+  },
+  "CERULEAN_POKECENTER": {
+    "source": "data/maps/objects/CeruleanPokecenter.asm",
+    "script": "scripts/CeruleanPokecenter.asm",
+    "header": "data/maps/headers/CeruleanPokecenter.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 3,
+        "y": 1,
+        "sprite": "SPRITE_NURSE",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANPOKECENTER_NURSE"
+      },
+      {
+        "id": 2,
+        "x": 10,
+        "y": 5,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "WALK",
+        "facing": "ANY_DIR",
+        "text": "TEXT_CERULEANPOKECENTER_SUPER_NERD"
+      },
+      {
+        "id": 3,
+        "x": 4,
+        "y": 3,
+        "sprite": "SPRITE_GENTLEMAN",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANPOKECENTER_GENTLEMAN"
+      },
+      {
+        "id": 4,
+        "x": 11,
+        "y": 2,
+        "sprite": "SPRITE_LINK_RECEPTIONIST",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANPOKECENTER_LINK_RECEPTIONIST"
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 3
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 3
+      }
+    ]
+  },
+  "CERULEAN_MART": {
+    "source": "data/maps/objects/CeruleanMart.asm",
+    "script": "scripts/CeruleanMart.asm",
+    "header": "data/maps/headers/CeruleanMart.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 0,
+        "y": 5,
+        "sprite": "SPRITE_CLERK",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_CERULEANMART_CLERK"
+      },
+      {
+        "id": 2,
+        "x": 3,
+        "y": 4,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "WALK",
+        "facing": "UP_DOWN",
+        "text": "TEXT_CERULEANMART_COOLTRAINER_M"
+      },
+      {
+        "id": 3,
+        "x": 6,
+        "y": 2,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "WALK",
+        "facing": "LEFT_RIGHT",
+        "text": "TEXT_CERULEANMART_COOLTRAINER_F"
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 6
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 6
+      }
+    ]
+  },
+  "CERULEAN_GYM": {
+    "source": "data/maps/objects/CeruleanGym.asm",
+    "script": "scripts/CeruleanGym.asm",
+    "header": "data/maps/headers/CeruleanGym.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 4,
+        "y": 2,
+        "sprite": "SPRITE_BRUNETTE_GIRL",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANGYM_MISTY",
+        "trainer": "MISTY:1"
+      },
+      {
+        "id": 2,
+        "x": 2,
+        "y": 3,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_CERULEANGYM_COOLTRAINER_F",
+        "trainer": "JR_TRAINER_F:1",
+        "event": "EVENT_BEAT_CERULEAN_GYM_TRAINER_0",
+        "sight": 3
+      },
+      {
+        "id": 3,
+        "x": 8,
+        "y": 7,
+        "sprite": "SPRITE_SWIMMER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_CERULEANGYM_SWIMMER",
+        "trainer": "SWIMMER:1",
+        "event": "EVENT_BEAT_CERULEAN_GYM_TRAINER_1",
+        "sight": 3
+      },
+      {
+        "id": 4,
+        "x": 7,
+        "y": 10,
+        "sprite": "SPRITE_GYM_GUIDE",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_CERULEANGYM_GYM_GUIDE"
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 13,
+        "target": "LAST_MAP",
+        "warp": 4
+      },
+      {
+        "x": 5,
+        "y": 13,
+        "target": "LAST_MAP",
+        "warp": 4
+      }
+    ]
+  },
+  "ROUTE_24": {
+    "source": "data/maps/objects/Route24.asm",
+    "script": "scripts/Route24.asm",
+    "header": "data/maps/headers/Route24.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 11,
+        "y": 15,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE24_COOLTRAINER_M1",
+        "trainer": "ROCKET:6"
+      },
+      {
+        "id": 2,
+        "x": 5,
+        "y": 20,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_ROUTE24_COOLTRAINER_M2",
+        "trainer": "JR_TRAINER_M:2",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_0",
+        "sight": 4
+      },
+      {
+        "id": 3,
+        "x": 11,
+        "y": 19,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE24_COOLTRAINER_M3",
+        "trainer": "JR_TRAINER_M:3",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_1",
+        "sight": 1
+      },
+      {
+        "id": 4,
+        "x": 10,
+        "y": 22,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE24_COOLTRAINER_F1",
+        "trainer": "LASS:7",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_2",
+        "sight": 1
+      },
+      {
+        "id": 5,
+        "x": 11,
+        "y": 25,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE24_YOUNGSTER1",
+        "trainer": "YOUNGSTER:4",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_3",
+        "sight": 1
+      },
+      {
+        "id": 6,
+        "x": 10,
+        "y": 28,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE24_COOLTRAINER_F2",
+        "trainer": "LASS:8",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_4",
+        "sight": 1
+      },
+      {
+        "id": 7,
+        "x": 11,
+        "y": 31,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE24_YOUNGSTER2",
+        "trainer": "BUG_CATCHER:9",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_5",
+        "sight": 1
+      },
+      {
+        "id": 8,
+        "x": 10,
+        "y": 5,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_ROUTE24_TM_THUNDER_WAVE",
+        "item": "TM_THUNDER_WAVE"
+      }
+    ],
+    "warps": []
+  },
+  "ROUTE_25": {
+    "source": "data/maps/objects/Route25.asm",
+    "script": "scripts/Route25.asm",
+    "header": "data/maps/headers/Route25.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 14,
+        "y": 2,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_ROUTE25_YOUNGSTER1",
+        "trainer": "YOUNGSTER:5",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_0",
+        "sight": 2
+      },
+      {
+        "id": 2,
+        "x": 18,
+        "y": 5,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_ROUTE25_YOUNGSTER2",
+        "trainer": "YOUNGSTER:6",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_1",
+        "sight": 3
+      },
+      {
+        "id": 3,
+        "x": 24,
+        "y": 4,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_ROUTE25_COOLTRAINER_M",
+        "trainer": "JR_TRAINER_M:2",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_2",
+        "sight": 3
+      },
+      {
+        "id": 4,
+        "x": 18,
+        "y": 8,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE25_COOLTRAINER_F1",
+        "trainer": "LASS:9",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_3",
+        "sight": 2
+      },
+      {
+        "id": 5,
+        "x": 32,
+        "y": 3,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_ROUTE25_YOUNGSTER3",
+        "trainer": "YOUNGSTER:7",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_4",
+        "sight": 4
+      },
+      {
+        "id": 6,
+        "x": 37,
+        "y": 4,
+        "sprite": "SPRITE_COOLTRAINER_F",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_ROUTE25_COOLTRAINER_F2",
+        "trainer": "LASS:10",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_5",
+        "sight": 4
+      },
+      {
+        "id": 7,
+        "x": 8,
+        "y": 4,
+        "sprite": "SPRITE_HIKER",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE25_HIKER1",
+        "trainer": "HIKER:2",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_6",
+        "sight": 3
+      },
+      {
+        "id": 8,
+        "x": 23,
+        "y": 9,
+        "sprite": "SPRITE_HIKER",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_ROUTE25_HIKER2",
+        "trainer": "HIKER:3",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_7",
+        "sight": 2
+      },
+      {
+        "id": 9,
+        "x": 13,
+        "y": 7,
+        "sprite": "SPRITE_HIKER",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_ROUTE25_HIKER3",
+        "trainer": "HIKER:4",
+        "event": "EVENT_BEAT_ROUTE_25_TRAINER_8",
+        "sight": 2
+      },
+      {
+        "id": 10,
+        "x": 22,
+        "y": 2,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_ROUTE25_TM_SEISMIC_TOSS",
+        "item": "TM_SEISMIC_TOSS"
+      }
+    ],
+    "warps": [
+      {
+        "x": 45,
+        "y": 3,
+        "target": "BILLS_HOUSE",
+        "warp": 1
+      }
+    ]
+  },
+  "BILLS_HOUSE": {
+    "source": "data/maps/objects/BillsHouse.asm",
+    "script": "scripts/BillsHouse.asm",
+    "header": "data/maps/headers/BillsHouse.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 6,
+        "y": 5,
+        "sprite": "SPRITE_MONSTER",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_BILLSHOUSE_BILL_POKEMON"
+      },
+      {
+        "id": 2,
+        "x": 4,
+        "y": 4,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_BILLSHOUSE_BILL_SS_TICKET"
+      },
+      {
+        "id": 3,
+        "x": 6,
+        "y": 5,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_BILLSHOUSE_BILL_CHECK_OUT_MY_RARE_POKEMON"
+      }
+    ],
+    "warps": [
+      {
+        "x": 2,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 1
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 1
+      }
+    ]
+  },
+  "MT_MOON_POKECENTER": {
+    "source": "data/maps/objects/MtMoonPokecenter.asm",
+    "script": "scripts/MtMoonPokecenter.asm",
+    "header": "data/maps/headers/MtMoonPokecenter.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 3,
+        "y": 1,
+        "sprite": "SPRITE_NURSE",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOONPOKECENTER_NURSE"
+      },
+      {
+        "id": 2,
+        "x": 4,
+        "y": 3,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_MTMOONPOKECENTER_YOUNGSTER"
+      },
+      {
+        "id": 3,
+        "x": 7,
+        "y": 3,
+        "sprite": "SPRITE_GENTLEMAN",
+        "movement": "STAY",
+        "facing": "UP",
+        "text": "TEXT_MTMOONPOKECENTER_GENTLEMAN"
+      },
+      {
+        "id": 4,
+        "x": 10,
+        "y": 6,
+        "sprite": "SPRITE_MIDDLE_AGED_MAN",
+        "movement": "WALK",
+        "facing": "LEFT_RIGHT",
+        "text": "TEXT_MTMOONPOKECENTER_MAGIKARP_SALESMAN"
+      },
+      {
+        "id": 5,
+        "x": 7,
+        "y": 2,
+        "sprite": "SPRITE_CLIPBOARD",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_MTMOONPOKECENTER_CLIPBOARD"
+      },
+      {
+        "id": 6,
+        "x": 11,
+        "y": 2,
+        "sprite": "SPRITE_LINK_RECEPTIONIST",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_MTMOONPOKECENTER_LINK_RECEPTIONIST"
+      }
+    ],
+    "warps": [
+      {
+        "x": 3,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 1
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 1
+      }
+    ]
+  },
+  "VIRIDIAN_FOREST": {
+    "source": "data/maps/objects/ViridianForest.asm",
+    "script": "scripts/ViridianForest.asm",
+    "header": "data/maps/headers/ViridianForest.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 16,
+        "y": 43,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFOREST_YOUNGSTER1"
+      },
+      {
+        "id": 2,
+        "x": 30,
+        "y": 33,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_VIRIDIANFOREST_YOUNGSTER2",
+        "trainer": "BUG_CATCHER:1",
+        "event": "EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_0",
+        "sight": 4
+      },
+      {
+        "id": 3,
+        "x": 30,
+        "y": 19,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_VIRIDIANFOREST_YOUNGSTER3",
+        "trainer": "BUG_CATCHER:2",
+        "event": "EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_1",
+        "sight": 4
+      },
+      {
+        "id": 4,
+        "x": 2,
+        "y": 18,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_VIRIDIANFOREST_YOUNGSTER4",
+        "trainer": "BUG_CATCHER:3",
+        "event": "EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2",
+        "sight": 1
+      },
+      {
+        "id": 5,
+        "x": 25,
+        "y": 11,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFOREST_ANTIDOTE",
+        "item": "ANTIDOTE"
+      },
+      {
+        "id": 6,
+        "x": 12,
+        "y": 29,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFOREST_POTION",
+        "item": "POTION"
+      },
+      {
+        "id": 7,
+        "x": 1,
+        "y": 31,
+        "sprite": "SPRITE_POKE_BALL",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFOREST_POKE_BALL",
+        "item": "POKE_BALL"
+      },
+      {
+        "id": 8,
+        "x": 27,
+        "y": 40,
+        "sprite": "SPRITE_YOUNGSTER",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFOREST_YOUNGSTER5"
+      }
+    ],
+    "warps": [
+      {
+        "x": 1,
+        "y": 0,
+        "target": "VIRIDIAN_FOREST_NORTH_GATE",
+        "warp": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "target": "VIRIDIAN_FOREST_NORTH_GATE",
+        "warp": 4
+      },
+      {
+        "x": 15,
+        "y": 47,
+        "target": "VIRIDIAN_FOREST_SOUTH_GATE",
+        "warp": 2
+      },
+      {
+        "x": 16,
+        "y": 47,
+        "target": "VIRIDIAN_FOREST_SOUTH_GATE",
+        "warp": 2
+      },
+      {
+        "x": 17,
+        "y": 47,
+        "target": "VIRIDIAN_FOREST_SOUTH_GATE",
+        "warp": 2
+      },
+      {
+        "x": 18,
+        "y": 47,
+        "target": "VIRIDIAN_FOREST_SOUTH_GATE",
+        "warp": 2
+      }
+    ]
+  },
+  "VIRIDIAN_FOREST_SOUTH_GATE": {
+    "source": "data/maps/objects/ViridianForestSouthGate.asm",
+    "script": "scripts/ViridianForestSouthGate.asm",
+    "header": "data/maps/headers/ViridianForestSouthGate.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 8,
+        "y": 4,
+        "sprite": "SPRITE_GIRL",
+        "movement": "STAY",
+        "facing": "LEFT",
+        "text": "TEXT_VIRIDIANFORESTSOUTHGATE_GIRL"
+      },
+      {
+        "id": 2,
+        "x": 2,
+        "y": 4,
+        "sprite": "SPRITE_LITTLE_GIRL",
+        "movement": "WALK",
+        "facing": "UP_DOWN",
+        "text": "TEXT_VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL"
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 0,
+        "target": "VIRIDIAN_FOREST",
+        "warp": 4
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "target": "VIRIDIAN_FOREST",
+        "warp": 5
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 6
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "target": "LAST_MAP",
+        "warp": 6
+      }
+    ]
+  },
+  "VIRIDIAN_FOREST_NORTH_GATE": {
+    "source": "data/maps/objects/ViridianForestNorthGate.asm",
+    "script": "scripts/ViridianForestNorthGate.asm",
+    "header": "data/maps/headers/ViridianForestNorthGate.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 3,
+        "y": 2,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFORESTNORTHGATE_SUPER_NERD"
+      },
+      {
+        "id": 2,
+        "x": 2,
+        "y": 5,
+        "sprite": "SPRITE_GRAMPS",
+        "movement": "STAY",
+        "facing": "NONE",
+        "text": "TEXT_VIRIDIANFORESTNORTHGATE_GRAMPS"
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 0,
+        "target": "LAST_MAP",
+        "warp": 2
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "target": "LAST_MAP",
+        "warp": 2
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "target": "VIRIDIAN_FOREST",
+        "warp": 1
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "target": "VIRIDIAN_FOREST",
+        "warp": 1
+      }
+    ]
+  },
+  "PEWTER_GYM": {
+    "source": "data/maps/objects/PewterGym.asm",
+    "script": "scripts/PewterGym.asm",
+    "header": "data/maps/headers/PewterGym.asm",
+    "objects": [
+      {
+        "id": 1,
+        "x": 4,
+        "y": 1,
+        "sprite": "SPRITE_SUPER_NERD",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_PEWTERGYM_BROCK",
+        "trainer": "BROCK:1"
+      },
+      {
+        "id": 2,
+        "x": 3,
+        "y": 6,
+        "sprite": "SPRITE_COOLTRAINER_M",
+        "movement": "STAY",
+        "facing": "RIGHT",
+        "text": "TEXT_PEWTERGYM_COOLTRAINER_M",
+        "trainer": "JR_TRAINER_M:1",
+        "event": "EVENT_BEAT_PEWTER_GYM_TRAINER_0",
+        "sight": 5
+      },
+      {
+        "id": 3,
+        "x": 7,
+        "y": 10,
+        "sprite": "SPRITE_GYM_GUIDE",
+        "movement": "STAY",
+        "facing": "DOWN",
+        "text": "TEXT_PEWTERGYM_GYM_GUIDE"
+      }
+    ],
+    "warps": [
+      {
+        "x": 4,
+        "y": 13,
+        "target": "LAST_MAP",
+        "warp": 3
+      },
+      {
+        "x": 5,
+        "y": 13,
+        "target": "LAST_MAP",
+        "warp": 3
+      }
+    ]
+  }
+}
