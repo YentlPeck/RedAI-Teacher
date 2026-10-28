@@ -1,4 +1,5 @@
-"""PokéBench's ten milestones (pokebench milestones.py, MIT, copy fetched 27 Oct 2026), read from Red's RAM.
+"""PokéBench's ten milestones (same keys, labels and order as PokéBench's milestones.py, MIT: see NOTICE.md),
+checked with our own code from Red's RAM.
 
 Every address, map id, item id and event bit comes from reference/pokered(.sym) through read_state; nothing here
 is a remembered number. Read only: no memory writes.

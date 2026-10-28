@@ -77,6 +77,26 @@ BADGES = ["Boulder", "Cascade", "Thunder", "Rainbow", "Soul", "Marsh", "Volcano"
 LEADERS = ["Brock", "Misty", "Lt. Surge", "Erika", "Koga", "Sabrina", "Blaine", "Giovanni"]
 
 
+def _arith(text):
+    """Whole-number arithmetic from the disassembly (e.g. "0xF0 - 2"): numbers, + - * and brackets only, no eval."""
+    import ast
+
+    def num(node):
+        if isinstance(node, ast.Constant) and type(node.value) is int:
+            return node.value
+        if isinstance(node, ast.UnaryOp) and isinstance(node.op, (ast.UAdd, ast.USub)):
+            v = num(node.operand)
+            return v if isinstance(node.op, ast.UAdd) else -v
+        if isinstance(node, ast.BinOp) and isinstance(node.op, (ast.Add, ast.Sub, ast.Mult)):
+            a, b = num(node.left), num(node.right)
+            return a + b if isinstance(node.op, ast.Add) else a - b if isinstance(node.op, ast.Sub) else a * b
+        raise ValueError(f"not simple arithmetic: {text!r}")
+
+    if len(text) > 100:
+        raise ValueError(f"not simple arithmetic: {text[:100]!r}")
+    return num(ast.parse(text, mode="eval").body)
+
+
 def _event_bits():
     """EVENT_* name -> bit index in wEventFlags (const_def / const / const_skip / const_next)."""
     value, out = 0, {}
@@ -89,8 +109,7 @@ def _event_bits():
             value += int(arg) if arg else 1
         elif s.startswith("const_next"):
             arg = re.sub(r"\$([0-9A-Fa-f]+)", r"0x\1", s[len("const_next"):].strip())   # e.g. "$F0 - 2"
-            assert re.fullmatch(r"[0-9a-fA-Fx +\-*()]+", arg), arg
-            value = eval(arg)
+            value = _arith(arg)
         elif s.startswith("const "):
             out[s.split()[1]] = value
             value += 1

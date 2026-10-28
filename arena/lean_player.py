@@ -146,10 +146,13 @@ def parse_buttons(text):
         if tok == "a*":                     # R17: A until the text ends or a choice shows (one press slot)
             out.append(tok)
             continue
-        m = re.fullmatch(r"([a-z]+)(?:\*(\d+))?", tok)
+        m = re.fullmatch(r"([a-z]+)(?:\*(\d{1,4}))?", tok)   # longer counts: unknown button
         if not m or m.group(1) not in BUTTONS or (m.group(2) is not None and int(m.group(2)) < 1):
             raise BadReply(f"unknown button '{tok}'")
-        out += [m.group(1)] * int(m.group(2) or 1)
+        n = int(m.group(2) or 1)         # check the count before expanding it: "a*9999" must not fill memory
+        if len(out) + n > MAX_PRESSES:
+            raise BadReply(f"{len(out) + n} presses (at most {MAX_PRESSES})")
+        out += [m.group(1)] * n
     if not out:
         raise BadReply("press without buttons")
     if len(out) > MAX_PRESSES:

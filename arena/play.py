@@ -329,10 +329,13 @@ def parse_buttons(tokens):
         if tok.lower() == A_STAR:            # R17: one press slot
             out.append(A_STAR)
             continue
-        mt = re.fullmatch(r"([a-z]+)(?:\*(\d+))?", tok.lower())
+        mt = re.fullmatch(r"([a-z]+)(?:\*(\d{1,4}))?", tok.lower())   # longer counts: unknown
         if not mt or mt.group(1) not in BUTTONS:
             raise SystemExit(f"unknown button '{tok}'. Use: {' '.join(sorted(BUTTONS))} (e.g. right*3), or a*")
-        out += [mt.group(1)] * int(mt.group(2) or 1)
+        n = int(mt.group(2) or 1)        # check the count before expanding it: "a*9999" must not fill memory
+        if len(out) + n > MAX_PRESSES:
+            raise SystemExit(f"at most {MAX_PRESSES} presses per command")
+        out += [mt.group(1)] * n
     if len(out) > MAX_PRESSES:
         raise SystemExit(f"at most {MAX_PRESSES} presses per command")
     return out

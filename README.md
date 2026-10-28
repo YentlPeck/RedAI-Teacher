@@ -40,6 +40,17 @@ environment variables too (list at the top of [tools/settings.py](tools/settings
 The AI player runs through a command-line tool on your own subscription: the `claude` CLI (Claude models) or the
 `codex` CLI (GPT models). They must be on your `PATH`, or set `REDAI_CLAUDE` / `REDAI_CODEX`.
 
+How the player is called (one fresh call per command, run in an empty folder, `REDAI_PLAYER_CWD`):
+
+- `claude -p`: all tools off (`--tools ""`), no MCP servers or slash commands, our rules as the system prompt, no
+  saved session, auto-memory and CLAUDE.md files off, prompt caching off. Your user settings are still loaded
+  (`--setting-sources user`), so your login works.
+- `codex exec`: your Codex config is ignored (`--ignore-user-config`), no saved session (`--ephemeral`), read-only
+  sandbox, tools and web search turned off, and our rules replace Codex's own instructions (through a model catalog
+  entry written into the game folder). Before a Codex game, a dry run checks that no usable tool is offered.
+- Both get your environment variables, minus a few Claude Code session variables. A reply that uses any tool is
+  thrown away and counted as a bad reply.
+
 ## Run a game
 
 ```sh
@@ -70,12 +81,22 @@ tests use memory dumps from our own game runs. Those dumps are made from the ROM
 the tests that need them are skipped with a clear reason. With the dumps (`REDAI_FIXTURES`), all 532 + 34 tests
 pass, apart from 13 skipped emulator and history checks.
 
+## What is in kb/
+
+The knowledge base the teacher reads. Lessons (`kb/parts/*.md`) and our bot's route and statistics are our own
+work. `game_facts.json`, `map_facts.json` and the move, species and type tables in `kb.json` are **game facts
+extracted from the game through the pret disassembly**: trainer teams, moves, species stats, wild Pokémon, map
+warps and people. They hold no ROM bytes, graphics, music or save data. These facts belong to the game's makers
+and are not covered by our MIT license (see [NOTICE.md](NOTICE.md)).
+
 ## Not included, and why
 
-- **The ROM and anything made from it**: save states, memory dumps, screenshots, game recordings. Bring your own ROM.
+- **The ROM and files made by running it**: save states, memory dumps, screenshots, game recordings. Bring your
+  own ROM. (The game facts in `kb/` above are the one exception.)
 - **pret/pokered** (the disassembly): third-party, and we found no license that allows copying it. Download it as
   shown above.
-- **PokéBench**: third-party. We only follow its rules and compare with its published runs.
+- **PokéBench code**: not copied. `arena/bench.py` uses PokéBench's milestone list with our own checks, and the
+  player loop follows its turn format. PokéBench is MIT; its notice is in [NOTICE.md](NOTICE.md).
 - **Game logs and run folders** of our test games.
 - **Scripts that rebuild the knowledge base** from our speedrun bot's runs. They need that bot's private run data.
   The finished knowledge base is in `kb/`.
@@ -85,7 +106,8 @@ pass, apart from 13 skipped emulator and history checks.
 
 The route data in `kb/` comes from our speedrun bot,
 [Pokebot-RedAI](https://github.com/YentlPeck/Pokebot-RedAI), which builds on PokeBot by Kyle Coburn and Michael
-Jondahl (MIT). Game facts come from the [pret/pokered](https://github.com/pret/pokered) disassembly.
+Jondahl (MIT). Game facts come from the [pret/pokered](https://github.com/pret/pokered) disassembly. Milestones and
+turn rules follow [PokéBench](https://github.com/VibeCodyH/pokebench) (MIT). Notices: [NOTICE.md](NOTICE.md).
 Pokémon is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc. This project is not affiliated with them.
 
 Made by Yentl Peck in 2026, with AI help. MIT license: [LICENSE](LICENSE).
