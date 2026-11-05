@@ -1,3 +1,4 @@
+# Pinned Python packages for the emulator, image handling and game-state tools.
 pyboy==2.7.0
 numpy==2.5.3
 PySDL2==0.9.17
