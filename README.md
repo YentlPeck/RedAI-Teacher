@@ -15,6 +15,8 @@ Also one important finding that Claude gave me:**Knowledge beats brainpower.** A
 
 # RedAI Teacher
 
+Setup, game commands, tests and project credits are documented below.
+
 A guide that tells an AI player where to go in Pokémon Red, like a speedrun guide in World of Warcraft.
 
 Each turn the AI player sees the game screen and one GUIDE line: the step it is on and the buttons for its next
