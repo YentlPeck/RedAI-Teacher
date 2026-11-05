@@ -1,3 +1,4 @@
+# Exclude game assets, generated files and local development settings.
 # Game files: bring your own ROM, never commit it or anything made from it
 *.gb
 *.gbc
