@@ -1,4 +1,4 @@
-# Credits and third-party notices
+# Credits, upstream sources and third-party notices
 
 ## PokéBench
 
