@@ -1,5 +1,7 @@
 # Results (28 October 2026)
 
+Recorded model comparisons, command counts, estimated costs and experiment limits.
+
 **With the guide, every model beat Brock in every scored game, in about 300 commands for about $1 or less.
 More thinking did not help.**
 
