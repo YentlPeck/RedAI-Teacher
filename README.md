@@ -2,8 +2,6 @@
 
 Recently I finished my speedrunning bot for Pokemon Red so I decided to take the knowledge of the speedrunning bot and turn it into a guider/teacher for LLMs that are not good at Pokemon Red. The results were very good. I was able to cut down on the cost, time and commands that an LLM would take if it would play the game independently. The main finding is that you can use cheap and "dumb" LLMs to get good results as long as you give them access to an expert wrapper.
 
-I also created a website to showcase my findings and to try out website design, website design is not easy for LLMs and honestly the best way to go about it is to find a site you like and get inspiration from them: https://ai-pokebot.alivesloth4.chatgpt.site/
-
 Also one important finding that Claude gave me:**Knowledge beats brainpower.** A cheap model with a good guide beat an expensive model playing alone. Haiku with the guide cost about 50 times less than Terra alone, and did better -> see image below.
 
 
